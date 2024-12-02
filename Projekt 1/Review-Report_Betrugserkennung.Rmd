@@ -1,0 +1,102 @@
+---
+title: "Review Report zu 'Betrugserkennung in der Bilanz'"
+output: 
+  html_document:
+    keep_md: true
+params:
+  team_zufrieden: 
+  team_effektiv: 
+  team_ausgeglichen: 
+  art_zusammenarbeit: 
+  haufigkeit_zuammenarbeit: 
+  treffen_zuammenarbeit: 
+  eigene_motivation: 
+  team_motivation: 
+  team_erwartungen: 
+  eigen_anteil: 
+  team_freund: 
+  kick_off: 
+---
+
+# Fragen im YAML-Header beantworten
+
+**Vergessen Sie nicht diese Datei zu knitten wenn Sie mit der Bewertung fertig sind!**
+
+Bevor Sie mit dem Review Report beginnen beantworten Sie bitte folgende Fragen im YAML-Header (Ausfüllbeispiel im [Muster-Review Report](https://github.com/pkds24-25/Musterreview_Betrugserkennung_Bilanz.git)):
+
+**team_zufrieden:** Ich bin mit meinem Team zufrieden
+
+- Bewertung auf einer Skala von 1 bis 5 (1 = Trifft gar nicht zu; 5 = Trifft völlig zu) 
+5
+  
+**team_effektiv:** Die Teamarbeit in diesem Projekt war sehr effektiv
+
+- Bewertung auf einer Skala von 1 bis 5 (1 = Trifft gar nicht zu; 5 = Trifft völlig zu) 
+5
+
+**team_ausgeglichen:** Die Arbeitsbelastung war innerhalb des Teams ausgeglichen
+
+- Bewertung auf einer Skala von 1 bis 5 (1 = Trifft gar nicht zu; 5 = Trifft völlig zu) 
+5
+
+**art_zusammenarbeit:** Die Art der Zusammenarbeit in der Gruppe war ...
+
+- Bewertung auf einer Skala von 1 bis 5 (1 = Jede/r Selbstständig; 5 = In Gruppenmeetings)
+2
+
+**haufigkeit_zuammenarbeit:** Wir haben uns für die Arbeit an dem Projekt getroffen
+
+- Bewertung auf einer Skala von 1 bis 5 (1 = Nie; 5 = Täglich) 
+2
+
+**treffen_zuammenarbeit:** Wenn wir uns getroffen haben, dann ...
+
+- Bewertung auf einer Skala von 1 bis 5 (1 = Immer online; 5 = Immer in Präsenz)
+5
+
+**eigene_motivation:** Meine Motivation für das Projekt war ...
+
+- Bewertung auf einer Skala von 1 bis 5 (1 = Sehr niedrig; 5 = Sehr hoch)
+4
+
+**team_motivation:** Die Motivation meiner Teammitglieder für das Projekt war ...
+
+- Bewertung auf einer Skala von 1 bis 5 (1 = Sehr niedrig; 5 = Sehr hoch)
+4
+
+**team_erwartungen:** Verglichen mit meinen Erwartungen war die Teamzusammenarbeit ...
+
+
+- Bewertung auf einer Skala von 1 bis 5 (1 = Viel schlechter als erwartet; 5 = Viel besser als erwartet) 
+5
+
+**eigen_anteil:** Meinen Anteil am Projekt in Prozent war ... 
+
+- Bewertung _in Prozent_ ( zwischen 0 - 100 )
+33,3
+
+**team_freund:** Das beschreibt das Verhältnis zu meinen Teammitgliedern am Besten ...
+
+  1 Ich kannte meine Teammitglieder vor dem Projekt nicht
+  
+  2 Ich kannte einen oder beide Teammitglieder vor dem Projekt, hatte jedoch nicht viel Kontakt mit ihnen
+  
+  3 Ein Teammitglied ist mein Freund
+  
+  4 Beide Teammitglieder sind meine Freunde
+  
+2
+  
+**kick_off:** Mein Kick-off Meeting hat stattgefunden in ...
+
+  1 Präsenz
+  
+  2 Online
+  
+1
+  
+# Hier schreiben Sie bitte ihren Review Report
+
+Bitte schreiben Sie anstatt diesem Text ihren Review Report zu der vorliegenden Ausarbeitung.
+
+Einen beispielhaften Review Report zum ersten Projekt finden Sie hier: https://github.com/pkds24-25/Musterreview_Betrugserkennung_Bilanz.git

@@ -1,0 +1,578 @@
+{"type":["init_ps"],"time":["2024-10-29 08:59:26"],"user":["Thomas Sattler"],"umph":[1730188766.2676],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 08:59:26"],"user":["Thomas Sattler"],"umph":[1730188766.3261],"ok":[true],"chunk":[1],"ex":[1],"e.ind":[0],"code":["library(tidyverse)\nlibrary(pander)\nlibrary(sf)\nlibrary(gganimate)\nlibrary(ggrepel)\nlibrary(skimr)\nlibrary(RColorBrewer)"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 08:59:27"],"user":["Thomas Sattler"],"umph":[1730188767.4719],"ok":[false],"chunk":[2],"ex":[1],"e.ind":[0],"code":[".PH_.__ <- read_csv(\".PH_.__\")\n\n# enter your code here ...\n"],"message":["evaluation error in \n  ____ <- read_csv(\"____\")\n  Error: '____' does not exist in current working directory ('C:/Users/Tommy/Desktop/Studium 3.Semester/Projektkur 1/GitHub/24-25/problem-sets/ps3').\n"]}
+,
+{"type":["check_ps"],"time":["2024-10-29 08:59:27"],"user":["Thomas Sattler"],"umph":[1730188767.5428],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 08:59:27"],"user":["Thomas Sattler"],"umph":[1730188767.6076],"ok":[false],"chunk":[2],"ex":[1],"e.ind":[0],"code":[".PH_.__ <- read_csv(\".PH_.__\")\n\n# enter your code here ...\n"],"message":["evaluation error in \n  ____ <- read_csv(\"____\")\n  Error: '____' does not exist in current working directory ('C:/Users/Tommy/Desktop/Studium 3.Semester/Projektkur 1/GitHub/24-25/problem-sets/ps3').\n"]}
+,
+{"type":["check_ps"],"time":["2024-10-29 08:59:28"],"user":["Thomas Sattler"],"umph":[1730188768.5094],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 08:59:28"],"user":["Thomas Sattler"],"umph":[1730188768.5638],"ok":[false],"chunk":[2],"ex":[1],"e.ind":[0],"code":[".PH_.__ <- read_csv(\".PH_.__\")\n\n# enter your code here ...\n"],"message":["evaluation error in \n  ____ <- read_csv(\"____\")\n  Error: '____' does not exist in current working directory ('C:/Users/Tommy/Desktop/Studium 3.Semester/Projektkur 1/GitHub/24-25/problem-sets/ps3').\n"]}
+,
+{"type":["check_ps"],"time":["2024-10-29 08:59:39"],"user":["Thomas Sattler"],"umph":[1730188779.6775],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 08:59:39"],"user":["Thomas Sattler"],"umph":[1730188779.7475],"ok":[false],"chunk":[2],"ex":[1],"e.ind":[0],"code":[".PH_.__ <- read_csv(\".PH_.__\")\n\n# enter your code here ...\n"],"message":["evaluation error in \n  ____ <- read_csv(\"____\")\n  Error: '____' does not exist in current working directory ('C:/Users/Tommy/Desktop/Studium 3.Semester/Projektkur 1/GitHub/24-25/problem-sets/ps3').\n"]}
+,
+{"type":["check_ps"],"time":["2024-10-29 08:59:43"],"user":["Thomas Sattler"],"umph":[1730188783.7698],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 08:59:43"],"user":["Thomas Sattler"],"umph":[1730188783.8327],"ok":[false],"chunk":[2],"ex":[1],"e.ind":[0],"code":[".PH_.__ <- read_csv(\".PH_.__\")\n\n# enter your code here ...\n"],"message":["evaluation error in \n  ____ <- read_csv(\"____\")\n  Error: '____' does not exist in current working directory ('C:/Users/Tommy/Desktop/Studium 3.Semester/Projektkur 1/GitHub/24-25/problem-sets/ps3').\n"]}
+,
+{"type":["check_ps"],"time":["2024-10-29 09:00:23"],"user":["Thomas Sattler"],"umph":[1730188823.4721],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 09:00:23"],"user":["Thomas Sattler"],"umph":[1730188823.5686],"ok":[false],"chunk":[2],"ex":[1],"e.ind":[0],"code":[".PH_.__ <- read_csv(\".PH_.__\")\n\n# enter your code here ...\n"],"message":["evaluation error in \n  ____ <- read_csv(\"____\")\n  Error: '____' does not exist in current working directory ('C:/Users/Tommy/Desktop/Studium 3.Semester/Projektkur 1/GitHub/24-25/problem-sets/ps3').\n"]}
+,
+{"type":["init_ps"],"time":["2024-10-29 09:01:29"],"user":["Thomas Sattler"],"umph":[1730188889.6365],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 09:01:29"],"user":["Thomas Sattler"],"umph":[1730188889.73],"ok":[true],"chunk":[1],"ex":[1],"e.ind":[0],"code":["library(tidyverse)\nlibrary(pander)\nlibrary(sf)\nlibrary(gganimate)\nlibrary(ggrepel)\nlibrary(skimr)\nlibrary(RColorBrewer)"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 09:01:30"],"user":["Thomas Sattler"],"umph":[1730188890.0697],"ok":[false],"chunk":[2],"ex":[1],"e.ind":[0],"code":[".PH_.__ <- read_csv(\".PH_.__\")\n\n# enter your code here ...\n"],"message":["evaluation error in \n  ____ <- read_csv(\"____\")\n  Error: '____' does not exist in current working directory ('C:/Users/Tommy/Desktop/Studium 3.Semester/Projektkur 1/GitHub/24-25/problem-sets/ps3').\n"]}
+,
+{"type":["check_ps"],"time":["2024-10-29 09:01:32"],"user":["Thomas Sattler"],"umph":[1730188892.0928],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 09:01:32"],"user":["Thomas Sattler"],"umph":[1730188892.1591],"ok":[false],"chunk":[2],"ex":[1],"e.ind":[0],"code":[".PH_.__ <- read_csv(\".PH_.__\")\n\n# enter your code here ...\n"],"message":["evaluation error in \n  ____ <- read_csv(\"____\")\n  Error: '____' does not exist in current working directory ('C:/Users/Tommy/Desktop/Studium 3.Semester/Projektkur 1/GitHub/24-25/problem-sets/ps3').\n"]}
+,
+{"type":["check_ps"],"time":["2024-10-29 09:01:35"],"user":["Thomas Sattler"],"umph":[1730188895.0352],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 09:01:35"],"user":["Thomas Sattler"],"umph":[1730188895.0592],"ok":[false],"chunk":[2],"ex":[1],"e.ind":[0],"code":[".PH_.__ <- read_csv(\".PH_.__\")\n\n# enter your code here ...\n"],"message":["evaluation error in \n  ____ <- read_csv(\"____\")\n  Error: '____' does not exist in current working directory ('C:/Users/Tommy/Desktop/Studium 3.Semester/Projektkur 1/GitHub/24-25/problem-sets/ps3').\n"]}
+,
+{"type":["check_ps"],"time":["2024-10-29 09:01:48"],"user":["Thomas Sattler"],"umph":[1730188908.1079],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 09:01:48"],"user":["Thomas Sattler"],"umph":[1730188908.1686],"ok":[false],"chunk":[2],"ex":[1],"e.ind":[0],"code":[".PH_.__ <- read_csv(\".PH_.__\")\n\n# enter your code here ...\n"],"message":["evaluation error in \n  ____ <- read_csv(\"____\")\n  Error: '____' does not exist in current working directory ('C:/Users/Tommy/Desktop/Studium 3.Semester/Projektkur 1/GitHub/24-25/problem-sets/ps3').\n"]}
+,
+{"type":["check_ps"],"time":["2024-10-29 09:01:49"],"user":["Thomas Sattler"],"umph":[1730188909.2977],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 09:01:49"],"user":["Thomas Sattler"],"umph":[1730188909.3607],"ok":[false],"chunk":[2],"ex":[1],"e.ind":[0],"code":[".PH_.__ <- read_csv(\".PH_.__\")\n\n# enter your code here ...\n"],"message":["evaluation error in \n  ____ <- read_csv(\"____\")\n  Error: '____' does not exist in current working directory ('C:/Users/Tommy/Desktop/Studium 3.Semester/Projektkur 1/GitHub/24-25/problem-sets/ps3').\n"]}
+,
+{"type":["check_ps"],"time":["2024-10-29 09:01:58"],"user":["Thomas Sattler"],"umph":[1730188918.6052],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 09:01:58"],"user":["Thomas Sattler"],"umph":[1730188918.6748],"ok":[false],"chunk":[2],"ex":[1],"e.ind":[0],"code":[".PH_.__ <- read_csv(\".PH_.__\")\n\n# enter your code here ...\n"],"message":["evaluation error in \n  ____ <- read_csv(\"____\")\n  Error: '____' does not exist in current working directory ('C:/Users/Tommy/Desktop/Studium 3.Semester/Projektkur 1/GitHub/24-25/problem-sets/ps3').\n"]}
+,
+{"type":["check_ps"],"time":["2024-10-29 09:01:58"],"user":["Thomas Sattler"],"umph":[1730188918.7951],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 09:01:58"],"user":["Thomas Sattler"],"umph":[1730188918.8646],"ok":[false],"chunk":[2],"ex":[1],"e.ind":[0],"code":[".PH_.__ <- read_csv(\".PH_.__\")\n\n# enter your code here ...\n"],"message":["evaluation error in \n  ____ <- read_csv(\"____\")\n  Error: '____' does not exist in current working directory ('C:/Users/Tommy/Desktop/Studium 3.Semester/Projektkur 1/GitHub/24-25/problem-sets/ps3').\n"]}
+,
+{"type":["check_ps"],"time":["2024-10-29 09:01:58"],"user":["Thomas Sattler"],"umph":[1730188918.9819],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 09:01:59"],"user":["Thomas Sattler"],"umph":[1730188919.0464],"ok":[false],"chunk":[2],"ex":[1],"e.ind":[0],"code":[".PH_.__ <- read_csv(\".PH_.__\")\n\n# enter your code here ...\n"],"message":["evaluation error in \n  ____ <- read_csv(\"____\")\n  Error: '____' does not exist in current working directory ('C:/Users/Tommy/Desktop/Studium 3.Semester/Projektkur 1/GitHub/24-25/problem-sets/ps3').\n"]}
+,
+{"type":["init_ps"],"time":["2024-10-29 09:02:30"],"user":["Thomas Sattler"],"umph":[1730188950.4488],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 09:02:30"],"user":["Thomas Sattler"],"umph":[1730188950.5332],"ok":[true],"chunk":[1],"ex":[1],"e.ind":[0],"code":["library(tidyverse)\nlibrary(pander)\nlibrary(sf)\nlibrary(gganimate)\nlibrary(ggrepel)\nlibrary(skimr)\nlibrary(RColorBrewer)"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 09:02:30"],"user":["Thomas Sattler"],"umph":[1730188950.8177],"ok":[false],"chunk":[2],"ex":[1],"e.ind":[0],"code":[".PH_.__ <- read_csv(\".PH_.__\")\n\n# enter your code here ...\n"],"message":["evaluation error in \n  ____ <- read_csv(\"____\")\n  Error: '____' does not exist in current working directory ('C:/Users/Tommy/Desktop/Studium 3.Semester/Projektkur 1/GitHub/24-25/problem-sets/ps3').\n"]}
+,
+{"type":["check_ps"],"time":["2024-10-29 09:08:44"],"user":["Thomas Sattler"],"umph":[1730189324.845],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 09:08:44"],"user":["Thomas Sattler"],"umph":[1730189324.8785],"ok":[false],"chunk":[2],"ex":[1],"e.ind":[0],"code":["EU_Makro<- read_csv(\"EU_Makro\")\n\n# enter your code here ...\n"],"message":["evaluation error in \n  EU_Makro <- read_csv(\"EU_Makro\")\n  Error: 'EU_Makro' does not exist in current working directory ('C:/Users/Tommy/Desktop/Studium 3.Semester/Projektkur 1/GitHub/24-25/problem-sets/ps3').\n"]}
+,
+{"type":["check_ps"],"time":["2024-10-29 09:14:18"],"user":["Thomas Sattler"],"umph":[1730189658.4549],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 09:14:18"],"user":["Thomas Sattler"],"umph":[1730189658.4951],"ok":[true],"chunk":[1],"ex":[1],"e.ind":[0],"code":["library(tidyverse)\nlibrary(pander)\n\nlibrary(sf)\nlibrary(gganimate)\nlibrary(ggrepel)\nlibrary(skimr)\nlibrary(RColorBrewer)"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 09:14:18"],"user":["Thomas Sattler"],"umph":[1730189658.7027],"ok":[false],"chunk":[2],"ex":[1],"e.ind":[1],"code":["EU_Makro<- read_csv(\"data/EU_Makro.csv\")\n\n# enter your code here ...\n"],"message":["\nYou have not yet made an assignment to eu_makro in chunk 1_a."]}
+,
+{"type":["check_ps"],"time":["2024-10-29 09:14:31"],"user":["Thomas Sattler"],"umph":[1730189671.9697],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 09:14:32"],"user":["Thomas Sattler"],"umph":[1730189672.3483],"ok":[false],"chunk":[2],"ex":[1],"e.ind":[1],"code":["EU_Makro<- read_csv(\"data/EU_Makro.csv\")\n\n# enter your code here ...\n"],"message":["\nYou have not yet made an assignment to eu_makro in chunk 1_a."]}
+,
+{"type":["check_ps"],"time":["2024-10-29 09:15:11"],"user":["Thomas Sattler"],"umph":[1730189711.4822],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 09:15:11"],"user":["Thomas Sattler"],"umph":[1730189711.7448],"ok":[false],"chunk":[2],"ex":[1],"e.ind":[1],"code":["EU_Makro<- read_csv(\"data/EU_Makro.csv\")\n\n# enter your code here ...\n"],"message":["\nYou have not yet made an assignment to eu_makro in chunk 1_a."]}
+,
+{"type":["check_ps"],"time":["2024-10-29 09:17:21"],"user":["Thomas Sattler"],"umph":[1730189841.9631],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 09:17:22"],"user":["Thomas Sattler"],"umph":[1730189842.1898],"ok":[false],"chunk":[2],"ex":[1],"e.ind":[1],"code":["EU_Makro<- read_csv(\"./data/EU_Makro.csv\")\n\n# enter your code here ...\n"],"message":["\nYou have not yet made an assignment to eu_makro in chunk 1_a."]}
+,
+{"type":["check_ps"],"time":["2024-10-29 09:17:57"],"user":["Thomas Sattler"],"umph":[1730189877.8014],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 09:17:58"],"user":["Thomas Sattler"],"umph":[1730189878.3287],"ok":[true],"chunk":[2],"ex":[1],"e.ind":[0],"code":["eu_makro<- read_csv(\"./data/EU_Makro.csv\")\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 09:17:58"],"user":["Thomas Sattler"],"umph":[1730189878.5545],"ok":[false],"chunk":[3],"ex":[1],"e.ind":[1],"code":["ueberblick=skim(EU_Makro)\n# enter youbeur code here ...\nueberblick"],"message":["\nYou have not made a correct assignment to ueberblick in chunk 1_b."]}
+,
+{"type":["check_ps"],"time":["2024-10-29 09:18:21"],"user":["Thomas Sattler"],"umph":[1730189901.5819],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 09:18:22"],"user":["Thomas Sattler"],"umph":[1730189902.1658],"ok":[true],"chunk":[3],"ex":[1],"e.ind":[0],"code":["ueberblick=skim(eu_makro)\n# enter youbeur code here ...\nueberblick"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 09:18:22"],"user":["Thomas Sattler"],"umph":[1730189902.3582],"ok":[true],"chunk":[4],"ex":[1],"e.ind":[0],"code":["panderOptions('knitr.auto.asis', FALSE)\nueberblick |> pander(style=\"rmarkdown\") "],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 09:18:22"],"user":["Thomas Sattler"],"umph":[1730189902.3771],"ok":[false],"chunk":[5],"ex":[1],"e.ind":[1],"code":["\n# enter your code here ...\n"],"message":["\nYou have not yet entered all correct commands in chunk 1_c_2."]}
+,
+{"type":["check_ps"],"time":["2024-10-29 09:20:10"],"user":["Thomas Sattler"],"umph":[1730190010.9495],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 09:20:10"],"user":["Thomas Sattler"],"umph":[1730190010.9772],"ok":[false],"chunk":[5],"ex":[1],"e.ind":[1],"code":["1\n\n# enter your code here ...\n"],"message":["\nYou have not yet entered all correct commands in chunk 1_c_2."]}
+,
+{"type":["check_ps"],"time":["2024-10-29 09:20:58"],"user":["Thomas Sattler"],"umph":[1730190058.885],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 09:20:58"],"user":["Thomas Sattler"],"umph":[1730190058.928],"ok":[false],"chunk":[6],"ex":[1],"e.ind":[1],"code":["1\n# enter your code here ...\n"],"message":["\nYou have not yet entered all correct commands in chunk 1_c_3."]}
+,
+{"type":["check_ps"],"time":["2024-10-29 09:21:08"],"user":["Thomas Sattler"],"umph":[1730190068.3492],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 09:21:08"],"user":["Thomas Sattler"],"umph":[1730190068.4232],"ok":[false],"chunk":[7],"ex":[1],"e.ind":[1],"code":["#deskriptives <- eu_makro |>\n#  group_by(___) |>\n#  summarize(Mittel = round(___(debt_share_country, na.rm=TRUE),2),\n#            SD = round(___(debt_share_country, na.rm=TRUE),2),\n#            Min = round(___(debt_share_country, na.rm=TRUE),2),\n#            Median = round(___(debt_share_country, na.rm=TRUE),2),\n#            Max = round(___(debt_share_country, na.rm=TRUE),2)) |>\n#  arrange(___(___))\n\n#deskriptives\n\n# enter your code here ...\n"],"message":["\nYou have not yet made an assignment to deskriptives in chunk 1_d."]}
+,
+{"type":["check_ps"],"time":["2024-10-29 09:32:41"],"user":["Thomas Sattler"],"umph":[1730190761.5664],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 09:32:42"],"user":["Thomas Sattler"],"umph":[1730190762.0387],"ok":[true],"chunk":[7],"ex":[1],"e.ind":[0],"code":["deskriptives <- eu_makro |>\n  group_by(country) |>\n  summarize(Mittel = round(mean(debt_share_country, na.rm=TRUE),2),\n           SD = round(sd(debt_share_country, na.rm=TRUE),2),\n            Min = round(min(debt_share_country, na.rm=TRUE),2), \n            Median = round(median(debt_share_country, na.rm=TRUE),2),\n            Max = round(max(debt_share_country, na.rm=TRUE),2)) |>\n  arrange(desc(Median))\n\ndeskriptives\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 09:32:42"],"user":["Thomas Sattler"],"umph":[1730190762.2239],"ok":[true],"chunk":[8],"ex":[2],"e.ind":[0],"code":["eu_makro <- read_csv(\"./data/EU_Makro.csv\")"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 09:32:42"],"user":["Thomas Sattler"],"umph":[1730190762.2452],"ok":[false],"chunk":[9],"ex":[2],"e.ind":[1],"code":["\n# enter your code here ...\n"],"message":["\nYou have not yet made an assignment to deutschland in chunk 2_a."]}
+,
+{"type":["check_ps"],"time":["2024-10-29 09:50:45"],"user":["Thomas Sattler"],"umph":[1730191845.6003],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 09:50:45"],"user":["Thomas Sattler"],"umph":[1730191845.6609],"ok":[true],"chunk":[9],"ex":[2],"e.ind":[0],"code":["deutschland= eu_makro |> \n    filter(country==\"Germany\")\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 09:50:46"],"user":["Thomas Sattler"],"umph":[1730191846.0194],"ok":[false],"chunk":[10],"ex":[2],"e.ind":[1],"code":["g1 <- deutschland |>\n  ggplot() + geom_point(aes(x = Jahre, y = gdp))\n\ng1\n\n# enter your code here ...\n"],"message":["\nYou have not made a correct assignment to g1 in chunk 2_b."]}
+,
+{"type":["check_ps"],"time":["2024-10-29 09:51:51"],"user":["Thomas Sattler"],"umph":[1730191911.2438],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 09:51:51"],"user":["Thomas Sattler"],"umph":[1730191911.3999],"ok":[true],"chunk":[9],"ex":[2],"e.ind":[0],"code":["deutschland= eu_makro |> \n    filter(country==\"Germany\")\n# enter your code here ...\ndeutschland\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 09:51:51"],"user":["Thomas Sattler"],"umph":[1730191911.6248],"ok":[true],"chunk":[10],"ex":[2],"e.ind":[0],"code":["g1 <- deutschland |>\n  ggplot() + geom_point(aes(x = year, y = gdp))\n\ng1\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 09:51:51"],"user":["Thomas Sattler"],"umph":[1730191911.6528],"ok":[false],"chunk":[11],"ex":[2],"e.ind":[1],"code":["\n# enter your code here ...\n"],"message":["\nYou have not yet made an assignment to g2 in chunk 2_c."]}
+,
+{"type":["check_ps"],"time":["2024-10-29 09:55:03"],"user":["Thomas Sattler"],"umph":[1730192103.1465],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 09:55:03"],"user":["Thomas Sattler"],"umph":[1730192103.8154],"ok":[true],"chunk":[11],"ex":[2],"e.ind":[0],"code":["g2 = g1 + geom_line(aes(x=year ,y=gov_debt))\ng2\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 09:55:03"],"user":["Thomas Sattler"],"umph":[1730192103.858],"ok":[false],"chunk":[12],"ex":[2],"e.ind":[1],"code":["# g3 <- ____ |>\n#   ggplot() + \n#   geom_line(aes(x = ____, y = ____, group=____, colour=____))\n#\n#g3\n\n# enter your code here ...\n"],"message":["\nYou have not yet made an assignment to g3 in chunk 2_d."]}
+,
+{"type":["check_ps"],"time":["2024-10-29 10:27:33"],"user":["Thomas Sattler"],"umph":[1730194053.2361],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 10:27:33"],"user":["Thomas Sattler"],"umph":[1730194053.7925],"ok":[false],"chunk":[12],"ex":[2],"e.ind":[1],"code":[" g3 <- eu_makro |>\n   ggplot() + \n   geom_line(aes(x = year, y = debt_share_country, group=country, colour=2))\n\ng3\n\n# enter your code here ...\n"],"message":["\nYou have not made a correct assignment to g3 in chunk 2_d."]}
+,
+{"type":["check_ps"],"time":["2024-10-29 10:28:39"],"user":["Thomas Sattler"],"umph":[1730194119.2214],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 10:28:39"],"user":["Thomas Sattler"],"umph":[1730194119.6276],"ok":[false],"chunk":[12],"ex":[2],"e.ind":[1],"code":[" g3 <- eu_makro |>\n   ggplot() + \n   geom_line(aes(x = year, y = debt_share_country, group=country, colour=20))\n\ng3\n\n# enter your code here ...\n"],"message":["\nYou have not made a correct assignment to g3 in chunk 2_d."]}
+,
+{"type":["check_ps"],"time":["2024-10-29 10:30:03"],"user":["Thomas Sattler"],"umph":[1730194203.6008],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 10:30:03"],"user":["Thomas Sattler"],"umph":[1730194203.9916],"ok":[false],"chunk":[12],"ex":[2],"e.ind":[1],"code":[" g3 <- eu_makro |>\n   ggplot() + \n   geom_line(aes(x = year, y = debt_share_country, group=country, colour=\"rainbow\"))\n\ng3\n\n# enter your code here ...\n"],"message":["\nYou have not made a correct assignment to g3 in chunk 2_d."]}
+,
+{"type":["check_ps"],"time":["2024-10-29 10:31:03"],"user":["Thomas Sattler"],"umph":[1730194263.2078],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 10:31:03"],"user":["Thomas Sattler"],"umph":[1730194263.5591],"ok":[false],"chunk":[12],"ex":[2],"e.ind":[1],"code":[" g3 <- eu_makro |>\n   ggplot() + \n   geom_line(aes(x = year, y = debt_share_country, group=country, colour=\"GREEN\"))\n\ng3\n\n# enter your code here ...\n"],"message":["\nYou have not made a correct assignment to g3 in chunk 2_d."]}
+,
+{"type":["hint"],"time":["2024-10-29 10:31:10"],"user":["Thomas Sattler"],"umph":[1730194270.4716],"ok":[true],"chunk":[12],"ex":[2],"e.ind":[1]}
+,
+{"type":["check_ps"],"time":["2024-10-29 10:38:51"],"user":["Thomas Sattler"],"umph":[1730194731.7044],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 10:38:52"],"user":["Thomas Sattler"],"umph":[1730194732.2406],"ok":[true],"chunk":[12],"ex":[2],"e.ind":[0],"code":[" g3 <- eu_makro |>\n   ggplot() + \n   geom_line(aes(x = year, y = debt_share_country, group=country, colour=country))\n\ng3\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 10:38:52"],"user":["Thomas Sattler"],"umph":[1730194732.2617],"ok":[false],"chunk":[13],"ex":[2],"e.ind":[1],"code":["#eu_analyse <- eu_makro |>\n#  filter(___) |>\n#  mutate( Laender = case_when(\n#    country == \"___\" ~ \"Deutschland\",\n#    country == \"___\" ~ \"Italien\",\n#    TRUE ~ \"___\"))\n\n# enter your code here ...\n"],"message":["\nYou have not yet made an assignment to eu_analyse in chunk 2_e."]}
+,
+{"type":["check_ps"],"time":["2024-10-29 10:42:36"],"user":["Thomas Sattler"],"umph":[1730194956.0141],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 10:42:36"],"user":["Thomas Sattler"],"umph":[1730194956.0526],"ok":[true],"chunk":[13],"ex":[2],"e.ind":[0],"code":["eu_analyse <- eu_makro |>\n  filter(year>=1995) |>\n  mutate( Laender = case_when(\n    country == \"Germany\" ~ \"Deutschland\",\n    country == \"Italy\" ~ \"Italien\",\n    TRUE ~ \"Andere\"))\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 10:42:36"],"user":["Thomas Sattler"],"umph":[1730194956.074],"ok":[false],"chunk":[14],"ex":[2],"e.ind":[1],"code":["#g4 <- eu_analyse |>\n#  ggplot() + \n#  geom_line(aes(x = year, y = debt_share_country, group = ___, colour = ___))\n\n#g4\n\n# enter your code here ...\n"],"message":["\nYou have not yet made an assignment to g4 in chunk 2_f."]}
+,
+{"type":["check_ps"],"time":["2024-10-29 10:46:47"],"user":["Thomas Sattler"],"umph":[1730195207.6733],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 10:46:48"],"user":["Thomas Sattler"],"umph":[1730195208.015],"ok":[true],"chunk":[14],"ex":[2],"e.ind":[0],"code":["g4 <- eu_analyse |>\n  ggplot() + \n  geom_line(aes(x = year, y = debt_share_country, group = country, colour = Laender))\n\ng4\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 10:46:48"],"user":["Thomas Sattler"],"umph":[1730195208.4441],"ok":[false],"chunk":[15],"ex":[2],"e.ind":[1],"code":["g5 <- g4 + \n  ylab(\"Schuldenquote\") + \n  xlab(\"Jahre\") +\n  scale_colour_manual(name = \"Andere\", \n                      values = c(\"grey\", \"springgreen4\", \"blue\"))\n\ng5\n\n# enter your code here ...\n"],"message":["\nYou have not made a correct assignment to g5 in chunk 2_g."]}
+,
+{"type":["check_ps"],"time":["2024-10-29 10:47:09"],"user":["Thomas Sattler"],"umph":[1730195229.191],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 10:47:09"],"user":["Thomas Sattler"],"umph":[1730195229.5763],"ok":[false],"chunk":[15],"ex":[2],"e.ind":[1],"code":["g5 <- g4 + \n  ylab(\"Schuldenquote\") + \n  xlab(\"Jahre\") +\n  scale_colour_manual(name = \"Andere\", \n                      values = c(\"grey\", \"springgreen4\", \"blue\"))\n\ng5\n\n# enter your code here ...\n"],"message":["\nYou have not made a correct assignment to g5 in chunk 2_g."]}
+,
+{"type":["check_ps"],"time":["2024-10-29 10:48:33"],"user":["Thomas Sattler"],"umph":[1730195313.3901],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 10:48:33"],"user":["Thomas Sattler"],"umph":[1730195313.799],"ok":[true],"chunk":[15],"ex":[2],"e.ind":[0],"code":["g5 <- g4 + \n  ylab(\"Schuldenquote\") + \n  xlab(\"Jahr\") +\n  scale_colour_manual(name = \"Laender\", \n                      values = c(\"grey\", \"springgreen4\", \"blue\"))\n\ng5\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 10:48:33"],"user":["Thomas Sattler"],"umph":[1730195313.8182],"ok":[false],"chunk":[16],"ex":[2],"e.ind":[1],"code":["#final <- g5 +\n#  ___(\"Schuldenquote einzelner EU-Laender von 1995 - 2023\") +\n#  ___(___=0.60, ___ = \"red\")\n\n#final\n\n# enter your code here ...\n"],"message":["\nYou have not yet made an assignment to final in chunk 2_h."]}
+,
+{"type":["hint"],"time":["2024-10-29 10:57:09"],"user":["Thomas Sattler"],"umph":[1730195829.9157],"ok":[true],"chunk":[16],"ex":[2],"e.ind":[1]}
+,
+{"type":["check_ps"],"time":["2024-10-29 11:00:10"],"user":["Thomas Sattler"],"umph":[1730196010.1048],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 11:00:10"],"user":["Thomas Sattler"],"umph":[1730196010.4438],"ok":[true],"chunk":[16],"ex":[2],"e.ind":[0],"code":["final <- g5 +\n  ggtitle(\"Schuldenquote einzelner EU-Laender von 1995 - 2023\") +\n  geom_hline(yintercept =0.60, color = \"red\")\n\nfinal\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 11:00:11"],"user":["Thomas Sattler"],"umph":[1730196011.1446],"ok":[true],"chunk":[17],"ex":[2],"e.ind":[0],"code":["final +\n  theme_bw() +\n  guides(color = FALSE) +\n  geom_text_repel(aes(x = year, y = debt_share_country, label = Laender),\n                  data          = filter(eu_analyse |> filter(Laender!=\"Andere\", year==last(year))),\n                  size          = 4,\n                  box.padding   = 1.5,\n                  point.padding = 0.5,\n                  force         = 100,\n                  segment.size  = 0.2,\n                  segment.color = \"grey50\",\n                  direction     = \"x\")"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 11:00:11"],"user":["Thomas Sattler"],"umph":[1730196011.1932],"ok":[false],"chunk":[5],"ex":[1],"e.ind":[1],"code":["1\n\n# enter your code here ...\n"],"message":["\nYou have not yet entered all correct commands in chunk 1_c_2."]}
+,
+{"type":["check_ps"],"time":["2024-10-29 11:01:12"],"user":["Thomas Sattler"],"umph":[1730196072.335],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 11:01:12"],"user":["Thomas Sattler"],"umph":[1730196072.3645],"ok":[false],"chunk":[5],"ex":[1],"e.ind":[1],"code":["1\n\n# enter your code here ...\n"],"message":["\nYou have not yet entered all correct commands in chunk 1_c_2."]}
+,
+{"type":["check_ps"],"time":["2024-10-29 11:01:17"],"user":["Thomas Sattler"],"umph":[1730196077.548],"ok":[true]}
+,
+{"type":["check_ps"],"time":["2024-10-29 11:01:22"],"user":["Thomas Sattler"],"umph":[1730196082.0445],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 11:01:22"],"user":["Thomas Sattler"],"umph":[1730196082.1164],"ok":[true],"chunk":[5],"ex":[1],"e.ind":[0],"code":["2\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 11:01:22"],"user":["Thomas Sattler"],"umph":[1730196082.1563],"ok":[false],"chunk":[6],"ex":[1],"e.ind":[1],"code":["1\n# enter your code here ...\n"],"message":["\nYou have not yet entered all correct commands in chunk 1_c_3."]}
+,
+{"type":["check_ps"],"time":["2024-10-29 11:01:34"],"user":["Thomas Sattler"],"umph":[1730196094.9253],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 11:01:34"],"user":["Thomas Sattler"],"umph":[1730196094.951],"ok":[false],"chunk":[6],"ex":[1],"e.ind":[1],"code":["3\n# enter your code here ...\n"],"message":["\nYou have not yet entered all correct commands in chunk 1_c_3."]}
+,
+{"type":["check_ps"],"time":["2024-10-29 11:01:39"],"user":["Thomas Sattler"],"umph":[1730196099.0914],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 11:01:39"],"user":["Thomas Sattler"],"umph":[1730196099.1266],"ok":[true],"chunk":[6],"ex":[1],"e.ind":[0],"code":["2\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 11:01:39"],"user":["Thomas Sattler"],"umph":[1730196099.3118],"ok":[true],"chunk":[7],"ex":[1],"e.ind":[0],"code":["deskriptives <- eu_makro |>\n  group_by(country) |>\n  summarize(Mittel = round(mean(debt_share_country, na.rm=TRUE),2),\n           SD = round(sd(debt_share_country, na.rm=TRUE),2),\n            Min = round(min(debt_share_country, na.rm=TRUE),2), \n            Median = round(median(debt_share_country, na.rm=TRUE),2),\n            Max = round(max(debt_share_country, na.rm=TRUE),2)) |>\n  arrange(desc(Median))\n\ndeskriptives\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 11:01:39"],"user":["Thomas Sattler"],"umph":[1730196099.5137],"ok":[true],"chunk":[18],"ex":[3],"e.ind":[0],"code":["eu_makro <- read_csv(\"./data/EU_Makro.csv\")\neu_analyse <- eu_makro |>\n  filter(year>=1995) |>\n  mutate( Laender = case_when(\n    country == \"Germany\" ~ \"Deutschland\",\n    country == \"Italy\" ~ \"Italien\",\n    TRUE ~ \"Andere\"))"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 11:01:39"],"user":["Thomas Sattler"],"umph":[1730196099.5337],"ok":[false],"chunk":[19],"ex":[3],"e.ind":[1],"code":["#eu_2005 <- eu_makro |> \n#  filter(___) |>\n#  ggplot(aes(___)) + \n#  ___\n\n#eu_2005\n\n# enter your code here ...\n"],"message":["\nYou have not yet made an assignment to eu_2005 in chunk 3_a."]}
+,
+{"type":["hint"],"time":["2024-10-29 11:07:18"],"user":["Thomas Sattler"],"umph":[1730196438.7317],"ok":[true],"chunk":[19],"ex":[3],"e.ind":[1]}
+,
+{"type":["check_ps"],"time":["2024-10-29 11:10:35"],"user":["Thomas Sattler"],"umph":[1730196635.5796],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 11:10:36"],"user":["Thomas Sattler"],"umph":[1730196636.0723],"ok":[false],"chunk":[19],"ex":[3],"e.ind":[1],"code":["eu_2005 <- eu_makro |> \n  filter(year==2005) |>\n  ggplot(aes(x=year,y=debt_share_country)) + \n  geom_histogram()\n\neu_2005\n\n# enter your code here ...\n"],"message":["\nYou have not made a correct assignment to eu_2005 in chunk 3_a."]}
+,
+{"type":["check_ps"],"time":["2024-10-29 11:13:13"],"user":["Thomas Sattler"],"umph":[1730196793.5383],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 11:13:13"],"user":["Thomas Sattler"],"umph":[1730196793.8956],"ok":[true],"chunk":[19],"ex":[3],"e.ind":[0],"code":["eu_2005 <- eu_makro |> \n  filter(year==2005) |>\n  ggplot(aes(y=debt_share_country)) + \n  geom_histogram()\n\neu_2005\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 11:13:13"],"user":["Thomas Sattler"],"umph":[1730196793.9224],"ok":[false],"chunk":[20],"ex":[3],"e.ind":[1],"code":["#eu_2005f <- ___ |>\n#  filter(___) |>\n#  ggplot(aes(___)) +\n#  geom_histogram(___) + \n#  ylab(___) +\n#  xlab(___) +\n#  ___(___ = 0.6, color=\"___\", linetype=\"___\")\n#\n#eu_2005f\n\n# enter your code here ...\n"],"message":["\nYou have not yet made an assignment to eu_2005f in chunk 3_b."]}
+,
+{"type":["check_ps"],"time":["2024-10-29 11:13:29"],"user":["Thomas Sattler"],"umph":[1730196809.0233],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 11:13:29"],"user":["Thomas Sattler"],"umph":[1730196809.3582],"ok":[true],"chunk":[19],"ex":[3],"e.ind":[0],"code":["eu_2005 <- eu_makro |> \n  filter(year==2005) |>\n  ggplot(aes(x=debt_share_country)) + \n  geom_histogram()\n\neu_2005\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 11:13:29"],"user":["Thomas Sattler"],"umph":[1730196809.3747],"ok":[false],"chunk":[20],"ex":[3],"e.ind":[1],"code":["#eu_2005f <- ___ |>\n#  filter(___) |>\n#  ggplot(aes(___)) +\n#  geom_histogram(___) + \n#  ylab(___) +\n#  xlab(___) +\n#  ___(___ = 0.6, color=\"___\", linetype=\"___\")\n#\n#eu_2005f\n\n# enter your code here ...\n"],"message":["\nYou have not yet made an assignment to eu_2005f in chunk 3_b."]}
+,
+{"type":["check_ps"],"time":["2024-10-29 11:21:54"],"user":["Thomas Sattler"],"umph":[1730197314.318],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 11:21:54"],"user":["Thomas Sattler"],"umph":[1730197314.7115],"ok":[false],"chunk":[20],"ex":[3],"e.ind":[1],"code":["eu_2005f <- eu_makro |>\n  filter(year==2005) |>\n  ggplot(aes(x=debt_share_country)) +\n  geom_histogram() + \n  ylab(\"Anzahl\") +\n  xlab(\"Schuldenquote\") +\n  geom_vline(xintercept = 0.6, color=\"red\", linetype=4)\n\neu_2005f\n\n# enter your code here ...\n"],"message":["\nYou have not made a correct assignment to eu_2005f in chunk 3_b."]}
+,
+{"type":["hint"],"time":["2024-10-29 11:25:25"],"user":["Thomas Sattler"],"umph":[1730197525.6562],"ok":[true],"chunk":[20],"ex":[3],"e.ind":[1]}
+,
+{"type":["check_ps"],"time":["2024-10-29 11:27:52"],"user":["Thomas Sattler"],"umph":[1730197672.5276],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 11:27:52"],"user":["Thomas Sattler"],"umph":[1730197672.682],"ok":[false],"chunk":[20],"ex":[3],"e.ind":[1],"code":["eu_2005f <- eu_makro |>\n  filter(year==2005) |>\n  ggplot(aes(x=debt_share_country)) +\n  geom_histogram(binwidth = 0.01) + \n  ylab(\"Anzahl\") +\n  xlab(\"Schuldenquote\") +\n  geom_vline(xintercept = 0.6, color=\"red\", linetype=dashed)\n\neu_2005f\n\n# enter your code here ...\n"],"message":["\nYou have not made a correct assignment to eu_2005f in chunk 3_b."]}
+,
+{"type":["check_ps"],"time":["2024-10-29 11:28:18"],"user":["Thomas Sattler"],"umph":[1730197698.3397],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 11:28:18"],"user":["Thomas Sattler"],"umph":[1730197698.7229],"ok":[true],"chunk":[20],"ex":[3],"e.ind":[0],"code":["eu_2005f <- eu_makro |>\n  filter(year==2005) |>\n  ggplot(aes(x=debt_share_country)) +\n  geom_histogram(binwidth = 0.01) + \n  ylab(\"Anzahl\") +\n  xlab(\"Schuldenquote\") +\n  geom_vline(xintercept = 0.6, color=\"red\", linetype=\"dashed\")\n\neu_2005f\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 11:28:18"],"user":["Thomas Sattler"],"umph":[1730197698.7488],"ok":[false],"chunk":[21],"ex":[3],"e.ind":[1],"code":["#eu_vergleich <- eu_makro |> \n#  filter(year==2005 | ___ | ___ | ___) |>\n#  ggplot(aes(___)) + \n#  geom_histogram(___) +\n#  geom_vline(xintercept = 0.6, color=\"red\", linetype=\"dashed\") +\n#  xlab(\"___\") +\n#  ylab(\"___\") +\n#  ggtitle(\"___\") +\n#  facet_wrap(___ ~., nrow=___)\n\n#eu_vergleich\n\n# enter your code here ...\n"],"message":["\nYou have not yet made an assignment to eu_vergleich in chunk 3_c."]}
+,
+{"type":["check_ps"],"time":["2024-10-29 12:14:20"],"user":["Thomas Sattler"],"umph":[1730200460.5465],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 12:14:22"],"user":["Thomas Sattler"],"umph":[1730200462.604],"ok":[false],"chunk":[21],"ex":[3],"e.ind":[1],"code":["eu_vergleich <- eu_makro |> \n  filter(year==2005 | 2010 | 2015 | 2020) |>\n  ggplot(aes(x= debt_share_country)) + \n  geom_histogram() +\n  geom_vline(xintercept = 0.6, color=\"red\", linetype=\"dashed\") +\n  xlab(\"Schuldenquote\") +\n  ylab(\"Anzahl\") +\n  ggtitle(\"Verteilung der Schuldnquote\") +\n  facet_wrap(year ~., nrow= 4)\n\neu_vergleich\n\n# enter your code here ...\n"],"message":["\nYou have not made a correct assignment to eu_vergleich in chunk 3_c."]}
+,
+{"type":["check_ps"],"time":["2024-10-29 12:15:14"],"user":["Thomas Sattler"],"umph":[1730200514.9388],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 12:15:15"],"user":["Thomas Sattler"],"umph":[1730200515.3569],"ok":[false],"chunk":[21],"ex":[3],"e.ind":[1],"code":["eu_vergleich <- eu_makro |> \n  filter(year==2005 | year==2010 |year== 2015 |year== 2020) |>\n  ggplot(aes(x= debt_share_country)) + \n  geom_histogram() +\n  geom_vline(xintercept = 0.6, color=\"red\", linetype=\"dashed\") +\n  xlab(\"Schuldenquote\") +\n  ylab(\"Anzahl\") +\n  ggtitle(\"Verteilung der Schuldnquote\") +\n  facet_wrap(year ~., nrow= 4)\n\neu_vergleich\n\n# enter your code here ...\n"],"message":["\nYou have not made a correct assignment to eu_vergleich in chunk 3_c."]}
+,
+{"type":["hint"],"time":["2024-10-29 12:15:41"],"user":["Thomas Sattler"],"umph":[1730200541.4577],"ok":[true],"chunk":[21],"ex":[3],"e.ind":[1]}
+,
+{"type":["check_ps"],"time":["2024-10-29 12:16:32"],"user":["Thomas Sattler"],"umph":[1730200592.3412],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-29 12:16:32"],"user":["Thomas Sattler"],"umph":[1730200592.8166],"ok":[false],"chunk":[21],"ex":[3],"e.ind":[1],"code":["eu_vergleich <- eu_makro |> \n  filter(year==2005 | year==2010 |year== 2015 |year== 2020) |>\n  ggplot(aes(x= debt_share_country)) + \n  geom_histogram(binwidth = 0.01) +\n  geom_vline(xintercept = 0.6, color=\"red\", linetype=\"dashed\") +\n  xlab(\"Schuldenquote\") +\n  ylab(\"Anzahl\") +\n  ggtitle(\"Verteilung der Schuldnquote\") +\n  facet_wrap(year ~., nrow= 4)\n\neu_vergleich\n\n# enter your code here ...\n"],"message":["\nYou have not made a correct assignment to eu_vergleich in chunk 3_c."]}
+,
+{"type":["check_ps"],"time":["2024-10-30 10:03:11"],"user":["Thomas Sattler"],"umph":[1730278991.4715],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 10:03:11"],"user":["Thomas Sattler"],"umph":[1730278991.489],"ok":[false],"chunk":[23],"ex":[3],"e.ind":[1],"code":["#balken <- eu_analyse |>\n#  mutate( typ = ___(___(debt_share_country>___,1,0)),\n#          relation = debt_share_country - ___)\n\n# enter your code here ...\n"],"message":["\nYou have not yet made an assignment to balken in chunk 3_e."]}
+,
+{"type":["check_ps"],"time":["2024-10-30 10:04:27"],"user":["Thomas Sattler"],"umph":[1730279067.9676],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 10:04:28"],"user":["Thomas Sattler"],"umph":[1730279068.002],"ok":[false],"chunk":[22],"ex":[3],"e.ind":[1],"code":["2\n# enter your code here ...\n"],"message":["\nYou have not yet entered all correct commands in chunk 3_d."]}
+,
+{"type":["check_ps"],"time":["2024-10-30 10:04:37"],"user":["Thomas Sattler"],"umph":[1730279077.1237],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 10:04:37"],"user":["Thomas Sattler"],"umph":[1730279077.1601],"ok":[true],"chunk":[22],"ex":[3],"e.ind":[0],"code":["1\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 10:04:37"],"user":["Thomas Sattler"],"umph":[1730279077.1893],"ok":[false],"chunk":[23],"ex":[3],"e.ind":[1],"code":["#balken <- eu_analyse |>\n#  mutate( typ = ___(___(debt_share_country>___,1,0)),\n#          relation = debt_share_country - ___)\n\n# enter your code here ...\n"],"message":["\nYou have not yet made an assignment to balken in chunk 3_e."]}
+,
+{"type":["check_ps"],"time":["2024-10-30 10:18:25"],"user":["Thomas Sattler"],"umph":[1730279905.9796],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 10:18:26"],"user":["Thomas Sattler"],"umph":[1730279906.03],"ok":[true],"chunk":[23],"ex":[3],"e.ind":[0],"code":["balken <- eu_analyse |>\n  mutate( typ = factor(ifelse(debt_share_country>0.6,1,0)),\n          relation = debt_share_country - 0.6)\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 10:18:26"],"user":["Thomas Sattler"],"umph":[1730279906.0714],"ok":[false],"chunk":[24],"ex":[3],"e.ind":[1],"code":["#plot_balken <- balken |>\n#  filter(___) |>\n#  ggplot(aes(x=___, y=___)) + \n#  geom____(stat=___, aes(fill=___), width=___) +\n#  xlab(___) +\n#  ylab(___) +\n#  ___(\"Einhaltung der Maastricht Kriterien in 2005\")\n\n#plot_balken\n\n# enter your code here ...\n"],"message":["\nYou have not yet made an assignment to plot_balken in chunk 3_f."]}
+,
+{"type":["hint"],"time":["2024-10-30 10:31:55"],"user":["Thomas Sattler"],"umph":[1730280715.5757],"ok":[true],"chunk":[24],"ex":[3],"e.ind":[1]}
+,
+{"type":["check_ps"],"time":["2024-10-30 10:35:57"],"user":["Thomas Sattler"],"umph":[1730280957.0747],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 10:35:57"],"user":["Thomas Sattler"],"umph":[1730280957.4384],"ok":[false],"chunk":[24],"ex":[3],"e.ind":[1],"code":["plot_balken <- balken |>\n  filter(year==2005) |>\n  ggplot(aes(x=\"country\", y=\"relation\")) + \n  geom_bar(stat=\"identity\", aes(fill=typ), width=0.5) +\n  xlab(\"Laender\") +\n  ylab(\"Relation\") +\n  ggtitle(\"Einhaltung der Maastricht Kriterien in 2005\")\n\nplot_balken\n\n# enter your code here ...\n"],"message":["\nYou have not made a correct assignment to plot_balken in chunk 3_f."]}
+,
+{"type":["check_ps"],"time":["2024-10-30 10:37:09"],"user":["Thomas Sattler"],"umph":[1730281029.242],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 10:37:09"],"user":["Thomas Sattler"],"umph":[1730281029.598],"ok":[true],"chunk":[24],"ex":[3],"e.ind":[0],"code":["plot_balken <- balken |>\n  filter(year==2005) |>\n  ggplot(aes(x=country, y=relation)) + \n  geom_bar(stat=\"identity\", aes(fill=typ), width=0.5) +\n  xlab(\"Laender\") +\n  ylab(\"Relation\") +\n  ggtitle(\"Einhaltung der Maastricht Kriterien in 2005\")\n\nplot_balken\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 10:37:09"],"user":["Thomas Sattler"],"umph":[1730281029.9086],"ok":[true],"chunk":[25],"ex":[3],"e.ind":[0],"code":["plot_balken_final <- plot_balken +\n  scale_fill_manual(name=\"Rel. Schuldenquote\", \n                    labels = c(\"Erfuellt Maastricht\", \"Verletzt Maastricht\"),\n                    values = c(\"0\"=\"springgreen4\", \"1\"=\"red\"))\n\nplot_balken_final"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 10:37:09"],"user":["Thomas Sattler"],"umph":[1730281029.9293],"ok":[false],"chunk":[26],"ex":[3],"e.ind":[1],"code":["#flipped_bars <- balken |>\n#  filter(year==2005 | ___) |>\n#  ggplot(aes(x=___, y=___)) + \n#  geom_bar(stat=___, aes(fill=___), width=___) +\n#  xlab(___) +\n#  ylab(\"Relation\") +\n#  ___(\"Einhaltung der Maastricht Kriterien in 2005 und 2023\") +\n#  facet_wrap( ___~., ncol=___) +\n#  coord_flip()\n\n#flipped_bars\n\n# enter your code here ...\n"],"message":["\nYou have not yet made an assignment to flipped_bars in chunk 3_h."]}
+,
+{"type":["check_ps"],"time":["2024-10-30 10:42:40"],"user":["Thomas Sattler"],"umph":[1730281360.2586],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 10:42:40"],"user":["Thomas Sattler"],"umph":[1730281360.8807],"ok":[false],"chunk":[26],"ex":[3],"e.ind":[1],"code":["flipped_bars <- balken |>\n  filter(year==2005 | 2023) |>\n  ggplot(aes(x=country, y=relation)) + \n  geom_bar(stat=\"identity\", aes(fill=typ), width=0.5) +\n  xlab(\"Laender\") +\n  ylab(\"Relation\") +\n ggtitle(\"Einhaltung der Maastricht Kriterien in 2005 und 2023\") +\nfacet_wrap( typ~., ncol=2) +\n  coord_flip()\n\nflipped_bars\n\n# enter your code here ...\n"],"message":["\nYou have not made a correct assignment to flipped_bars in chunk 3_h."]}
+,
+{"type":["check_ps"],"time":["2024-10-30 10:43:39"],"user":["Thomas Sattler"],"umph":[1730281419.8684],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 10:43:40"],"user":["Thomas Sattler"],"umph":[1730281420.4267],"ok":[false],"chunk":[26],"ex":[3],"e.ind":[1],"code":["flipped_bars <- balken |>\n  filter(year==2005 |year== 2023) |>\n  ggplot(aes(x=country, y=relation)) + \n  geom_bar(stat=\"identity\", aes(fill=typ), width=0.5) +\n  xlab(\"Laender\") +\n  ylab(\"Relation\") +\n ggtitle(\"Einhaltung der Maastricht Kriterien in 2005 und 2023\") +\nfacet_wrap( typ~., ncol=2) +\n  coord_flip()\n\nflipped_bars\n\n# enter your code here ...\n"],"message":["\nYou have not made a correct assignment to flipped_bars in chunk 3_h."]}
+,
+{"type":["check_ps"],"time":["2024-10-30 10:45:29"],"user":["Thomas Sattler"],"umph":[1730281529.5043],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 10:45:29"],"user":["Thomas Sattler"],"umph":[1730281529.9313],"ok":[true],"chunk":[26],"ex":[3],"e.ind":[0],"code":["flipped_bars <- balken |>\n  filter(year==2005 |year== 2023) |>\n  ggplot(aes(x=country, y=relation)) + \n  geom_bar(stat=\"identity\", aes(fill=typ), width=0.5) +\n  xlab(\"Laender\") +\n  ylab(\"Relation\") +\n ggtitle(\"Einhaltung der Maastricht Kriterien in 2005 und 2023\") +\nfacet_wrap( year~., ncol=2) +\n  coord_flip()\n\nflipped_bars\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 10:45:30"],"user":["Thomas Sattler"],"umph":[1730281530.4539],"ok":[true],"chunk":[27],"ex":[3],"e.ind":[0],"code":["flipped_bars +\n  scale_fill_manual(name=\"Rel. Schuldenquote\", \n                    labels = c(\"Erfuellt Maastricht\", \"Verletzt Maastricht\"),\n                    values = c(\"0\"=\"springgreen4\", \"1\"=\"red\"))"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 10:45:30"],"user":["Thomas Sattler"],"umph":[1730281530.4688],"ok":[false],"chunk":[28],"ex":[3],"e.ind":[0],"code":["#animated_bars <- balken |>\n#  ggplot(aes(x=___, y=___)) + \n#  geom_bar(stat=___, aes(fill=___), width=.5) +\n#  ___(\"Laender\") +\n#  ylab(___) +\n#  ___(\"Einhaltung der Maastricht Kriterien in 2005 und 2023\") +\n#  scale_fill_manual(name=\"Rel. Schuldenquote\", \n#                    ___ = c(\"Erfuellt Maastricht\", \"Verletzt Maastricht\"),\n#                    ___ = c(\"0\"=\"springgreen4\", \"1\"=\"red\")) +\n#  coord_flip()\n\n# enter your code here ...\n\nanimated_bars + transition_time(as.integer(year)) +\n  labs(title = \"Jahr: {frame_time}\")"],"message":["evaluation error in \n  animated_bars + transition_time(as.integer(year)) + labs(title = \"Jahr: {frame_time}\")\n  Error:  Objekt 'animated_bars' nicht gefunden\n"]}
+,
+{"type":["check_ps"],"time":["2024-10-30 10:52:00"],"user":["Thomas Sattler"],"umph":[1730281920.1818],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 10:52:23"],"user":["Thomas Sattler"],"umph":[1730281943.2787],"ok":[false],"chunk":[28],"ex":[3],"e.ind":[1],"code":["animated_bars <- balken |>\n  ggplot(aes(x=Laender, y=relation)) + \n  geom_bar(stat=\"identity\", aes(fill=typ), width=.5) +\n  xlab(\"Laender\") +\n  ylab(\"Relation\") +\n ggtitle(\"Einhaltung der Maastricht Kriterien in 2005 und 2023\") +\n  scale_fill_manual(name=\"Rel. Schuldenquote\", \n                    labels = c(\"Erfuellt Maastricht\", \"Verletzt Maastricht\"),\n                    values = c(\"0\"=\"springgreen4\", \"1\"=\"red\")) +\n  coord_flip()\n\n# enter your code here ...\n\nanimated_bars + transition_time(as.integer(year)) +\n  labs(title = \"Jahr: {frame_time}\")"],"message":["\nYou have not made a correct assignment to animated_bars in chunk 3_j."]}
+,
+{"type":["check_ps"],"time":["2024-10-30 10:52:56"],"user":["Thomas Sattler"],"umph":[1730281976.7946],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 10:52:57"],"user":["Thomas Sattler"],"umph":[1730281977.9411],"ok":[false],"chunk":[21],"ex":[3],"e.ind":[1],"code":["eu_vergleich <- eu_makro |> \n  filter(year==2005 | year==2010 |year== 2015 |year== 2020) |>\n  ggplot(aes(x= debt_share_country)) + \n  geom_histogram(binwidth = 0.01) +\n  geom_vline(xintercept = 0.6, color=\"red\", linetype=\"dashed\") +\n  xlab(\"Schuldenquote\") +\n  ylab(\"Anzahl\") +\n  ggtitle(\"Verteilung der Schuldnquote\") +\n  facet_wrap(year ~., nrow= 4)\n\neu_vergleich\n\n# enter your code here ...\n"],"message":["\nYou have not made a correct assignment to eu_vergleich in chunk 3_c."]}
+,
+{"type":["check_ps"],"time":["2024-10-30 10:54:43"],"user":["Thomas Sattler"],"umph":[1730282083.6294],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 10:55:07"],"user":["Thomas Sattler"],"umph":[1730282107.0913],"ok":[true],"chunk":[28],"ex":[3],"e.ind":[0],"code":["animated_bars <- balken |>\n  ggplot(aes(x=country, y=relation)) + \n  geom_bar(stat=\"identity\", aes(fill=typ), width=.5) +\n  xlab(\"Laender\") +\n  ylab(\"Relation\") +\n ggtitle(\"Einhaltung der Maastricht Kriterien in 2005 und 2023\") +\n  scale_fill_manual(name=\"Rel. Schuldenquote\", \n                    labels = c(\"Erfuellt Maastricht\", \"Verletzt Maastricht\"),\n                    values = c(\"0\"=\"springgreen4\", \"1\"=\"red\")) +\n  coord_flip()\n\n# enter your code here ...\n\nanimated_bars + transition_time(as.integer(year)) +\n  labs(title = \"Jahr: {frame_time}\")"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 10:55:07"],"user":["Thomas Sattler"],"umph":[1730282107.2912],"ok":[true],"chunk":[29],"ex":[4],"e.ind":[0],"code":["dat <-  readRDS(\"./data/eu_macro_maps.Rds\")\nhead(dat)"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 10:55:07"],"user":["Thomas Sattler"],"umph":[1730282107.5537],"ok":[false],"chunk":[30],"ex":[4],"e.ind":[1],"code":["# Erstelle die Spalte debt_share in Prozent und gerundet\ndat <-  dat |>\n  mutate(debt_share = round(100*gov_debt / gdp))\n# Erstelle die Spalte label fuer die Beschriftung zur Verschuldung\n# in der Karte\ndat <-  dat |>\n  mutate(label = paste0(cntry,\" \", debt_share,\"%\"))\n\n# Erstelle schoene Farbpalette \n# mit RColorBrewer\ncolours = rev(brewer.pal(8,\"RdYlGn\"))\n#dat |>\n#  ggplot() +\n#  geom_sf(aes(fill=___, geometry=geometry)) +\n#  geom_sf_text(aes(label=___, geometry=geometry), size=3)+\n#  theme_void() + \n#  scale_fill_gradientn(colours = colours, name = ___) +\n#  theme(panel.grid.major = element_line(color = \"white\"))\n\n# enter your code here ...\n"],"message":["\nYou have not yet entered all correct commands in chunk 4_2."]}
+,
+{"type":["check_ps"],"time":["2024-10-30 11:05:14"],"user":["Thomas Sattler"],"umph":[1730282714.9233],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 11:05:15"],"user":["Thomas Sattler"],"umph":[1730282715.5656],"ok":[false],"chunk":[30],"ex":[4],"e.ind":[0],"code":["# Erstelle die Spalte debt_share in Prozent und gerundet\ndat <-  dat |>\n  mutate(debt_share = round(100*gov_debt / gdp))\n# Erstelle die Spalte label fuer die Beschriftung zur Verschuldung\n# in der Karte\ndat <-  dat |>\n  mutate(label = paste0(cntry,\" \", debt_share,\"%\"))\n\n# Erstelle schoene Farbpalette \n# mit RColorBrewer\ncolours = rev(brewer.pal(8,\"RdYlGn\"))\ndat |>\n  ggplot() +\n  geom_sf(aes(fill=dat, geometry=geometry)) +\n  geom_sf_text(aes(label=lable, geometry=geometry), size=3)+\n  theme_void() + \n  scale_fill_gradientn(colours = colours, name = \"Schuldenquote\") +\n  theme(panel.grid.major = element_line(color = \"white\"))\n\n# enter your code here ...\n"],"message":["evaluation error in \n  ggplot(dat) + geom_sf(aes(fill = dat, geometry = geometry)) + geom_sf_text(aes(label = lable, geometry = geometry), size = 3) + theme_void() + scale_fill_gradientn(colours = colours, name = \"Schuldenquote\") + theme(panel.grid.major = element_line(color = \"white\"))\n  \u001b[1m\u001b[33mError\u001b[39m in `geom_sf()`:\u001b[22m\n\u001b[38;5;252m\u001b[33m!\u001b[38;5;252m Problem while computing aesthetics.\n\u001b[36mℹ\u001b[38;5;252m Error occurred in the 1st layer.\u001b[39m\n\u001b[1mCaused by error in `check_aesthetics()`:\u001b[22m\n\u001b[38;5;252m\u001b[33m!\u001b[38;5;252m Aesthetics must be either length 1 or the same as the data (924).\n\u001b[31m✖\u001b[38;5;252m Fix the following mappings: `fill`.\u001b[39m\n"]}
+,
+{"type":["check_ps"],"time":["2024-10-30 11:05:39"],"user":["Thomas Sattler"],"umph":[1730282739.6521],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 11:05:40"],"user":["Thomas Sattler"],"umph":[1730282740.11],"ok":[false],"chunk":[30],"ex":[4],"e.ind":[0],"code":["# Erstelle die Spalte debt_share in Prozent und gerundet\ndat <-  dat |>\n  mutate(debt_share = round(100*gov_debt / gdp))\n# Erstelle die Spalte label fuer die Beschriftung zur Verschuldung\n# in der Karte\ndat <-  dat |>\n  mutate(label = paste0(cntry,\" \", debt_share,\"%\"))\n\n# Erstelle schoene Farbpalette \n# mit RColorBrewer\ncolours = rev(brewer.pal(8,\"RdYlGn\"))\ndat |>\n  ggplot() +\n  geom_sf(aes(fill=dat, geometry=geometry)) +\n  geom_sf_text(aes(label=label, geometry=geometry), size=3)+\n  theme_void() + \n  scale_fill_gradientn(colours = colours, name = \"Schuldenquote\") +\n  theme(panel.grid.major = element_line(color = \"white\"))\n\n# enter your code here ...\n"],"message":["evaluation error in \n  ggplot(dat) + geom_sf(aes(fill = dat, geometry = geometry)) + geom_sf_text(aes(label = label, geometry = geometry), size = 3) + theme_void() + scale_fill_gradientn(colours = colours, name = \"Schuldenquote\") + theme(panel.grid.major = element_line(color = \"white\"))\n  \u001b[1m\u001b[33mError\u001b[39m in `geom_sf()`:\u001b[22m\n\u001b[38;5;252m\u001b[33m!\u001b[38;5;252m Problem while computing aesthetics.\n\u001b[36mℹ\u001b[38;5;252m Error occurred in the 1st layer.\u001b[39m\n\u001b[1mCaused by error in `check_aesthetics()`:\u001b[22m\n\u001b[38;5;252m\u001b[33m!\u001b[38;5;252m Aesthetics must be either length 1 or the same as the data (924).\n\u001b[31m✖\u001b[38;5;252m Fix the following mappings: `fill`.\u001b[39m\n"]}
+,
+{"type":["check_ps"],"time":["2024-10-30 11:06:20"],"user":["Thomas Sattler"],"umph":[1730282780.1122],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 11:06:21"],"user":["Thomas Sattler"],"umph":[1730282781.3915],"ok":[true],"chunk":[30],"ex":[4],"e.ind":[0],"code":["# Erstelle die Spalte debt_share in Prozent und gerundet\ndat <-  dat |>\n  mutate(debt_share = round(100*gov_debt / gdp))\n# Erstelle die Spalte label fuer die Beschriftung zur Verschuldung\n# in der Karte\ndat <-  dat |>\n  mutate(label = paste0(cntry,\" \", debt_share,\"%\"))\n\n# Erstelle schoene Farbpalette \n# mit RColorBrewer\ncolours = rev(brewer.pal(8,\"RdYlGn\"))\ndat |>\n  ggplot() +\n  geom_sf(aes(fill=debt_share, geometry=geometry)) +\n  geom_sf_text(aes(label=label, geometry=geometry), size=3)+\n  theme_void() + \n  scale_fill_gradientn(colours = colours, name = \"Schuldenquote\") +\n  theme(panel.grid.major = element_line(color = \"white\"))\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 11:06:22"],"user":["Thomas Sattler"],"umph":[1730282782.2547],"ok":[false],"chunk":[21],"ex":[3],"e.ind":[1],"code":["eu_vergleich <- eu_makro |> \n  filter(year==2005 | year==2010 |year== 2015 |year== 2020) |>\n  ggplot(aes(x= debt_share_country)) + \n  geom_histogram(binwidth = 0.01) +\n  geom_vline(xintercept = 0.6, color=\"red\", linetype=\"dashed\") +\n  xlab(\"Schuldenquote\") +\n  ylab(\"Anzahl\") +\n  ggtitle(\"Verteilung der Schuldnquote\") +\n  facet_wrap(year ~., nrow= 4)\n\neu_vergleich\n\n# enter your code here ...\n"],"message":["\nYou have not made a correct assignment to eu_vergleich in chunk 3_c."]}
+,
+{"type":["check_ps"],"time":["2024-10-30 11:07:15"],"user":["Thomas Sattler"],"umph":[1730282835.7812],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 11:07:16"],"user":["Thomas Sattler"],"umph":[1730282836.5947],"ok":[false],"chunk":[21],"ex":[3],"e.ind":[1],"code":["eu_vergleich <- eu_makro |> \n  filter(year==2005 | year==2010 |year== 2015 |year== 2020) |>\n  ggplot(aes(x= debt_share_country)) + \n  geom_histogram(binwidth = 0.01) +\n  geom_vline(xintercept = 0.6, color=\"red\", linetype=\"dashed\") +\n  xlab(\"Schuldenquote\") +\n  ylab(\"Anzahl\") +\n  ggtitle(\"Verteilung der Schuldnquote\") +\n  facet_wrap(year ~., nrow= 4)\n\neu_vergleich\n\n# enter your code here ...\n"],"message":["\nYou have not made a correct assignment to eu_vergleich in chunk 3_c."]}
+,
+{"type":["hint"],"time":["2024-10-30 11:08:20"],"user":["Thomas Sattler"],"umph":[1730282900.9385],"ok":[true],"chunk":[21],"ex":[3],"e.ind":[1]}
+,
+{"type":["check_ps"],"time":["2024-10-30 11:09:32"],"user":["Thomas Sattler"],"umph":[1730282972.3155],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 11:09:33"],"user":["Thomas Sattler"],"umph":[1730282973.119],"ok":[false],"chunk":[21],"ex":[3],"e.ind":[1],"code":["eu_vergleich <- eu_makro |> \n  filter(year==2005 | year==2010 |year== 2015 |year== 2020) |>\n  ggplot(aes(debt_share_country)) + \n  geom_histogram(binwidth = 0.01) +\n  geom_vline(xintercept = 0.6, color=\"red\", linetype=\"dashed\") +\n  xlab(\"Schuldenquote\") +\n  ylab(\"Anzahl\") +\n  ggtitle(\"Verteilung der Schuldnquote\") +\n  facet_wrap(year ~., nrow= 4)\n\neu_vergleich\n\n# enter your code here ...\n"],"message":["\nYou have not made a correct assignment to eu_vergleich in chunk 3_c."]}
+,
+{"type":["check_ps"],"time":["2024-10-30 11:10:31"],"user":["Thomas Sattler"],"umph":[1730283031.6115],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 11:10:32"],"user":["Thomas Sattler"],"umph":[1730283032.4354],"ok":[false],"chunk":[21],"ex":[3],"e.ind":[1],"code":["eu_vergleich <- eu_makro |> \n  filter(year==2005 | year==2010 |year== 2015 |year== 2020) |>\n  ggplot(aes(debt_share_country)) + \n  geom_histogram(binwidth = 0.01) +\n  geom_vline(xintercept = 0.6, color=\"red\", linetype=\"dashed\") +\n  xlab(\"Schuldenquote\") +\n  ylab(\"Anzahl\") +\n  ggtitle(\"Verteilung der Schuldnquote\") +\n  facet_wrap(year ~., nrow= 4)\n\neu_vergleich\n\n# enter your code here ...\n"],"message":["\nYou have not made a correct assignment to eu_vergleich in chunk 3_c."]}
+,
+{"type":["check_ps"],"time":["2024-10-30 11:12:46"],"user":["Thomas Sattler"],"umph":[1730283166.2785],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 11:12:47"],"user":["Thomas Sattler"],"umph":[1730283167.089],"ok":[true],"chunk":[21],"ex":[3],"e.ind":[0],"code":["eu_vergleich <- eu_makro |> \n  filter(year==2005 | year==2010 |year== 2015 |year== 2020) |>\n  ggplot(aes(debt_share_country)) + \n  geom_histogram(binwidth = 0.01) +\n  geom_vline(xintercept = 0.6, color=\"red\", linetype=\"dashed\") +\n  xlab(\"Schuldenquote\") +\n  ylab(\"Anzahl\") +\n  ggtitle(\"Verteilung der Schuldenquote\") +\n  facet_wrap(year ~., nrow= 4)\n\neu_vergleich\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 11:12:47"],"user":["Thomas Sattler"],"umph":[1730283167.1107],"ok":[true],"chunk":[22],"ex":[3],"e.ind":[0],"code":["1\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 11:12:47"],"user":["Thomas Sattler"],"umph":[1730283167.1363],"ok":[true],"chunk":[23],"ex":[3],"e.ind":[0],"code":["balken <- eu_analyse |>\n  mutate( typ = factor(ifelse(debt_share_country>0.6,1,0)),\n          relation = debt_share_country - 0.6)\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 11:12:47"],"user":["Thomas Sattler"],"umph":[1730283167.6954],"ok":[true],"chunk":[24],"ex":[3],"e.ind":[0],"code":["plot_balken <- balken |>\n  filter(year==2005) |>\n  ggplot(aes(x=country, y=relation)) + \n  geom_bar(stat=\"identity\", aes(fill=typ), width=0.5) +\n  xlab(\"Laender\") +\n  ylab(\"Relation\") +\n  ggtitle(\"Einhaltung der Maastricht Kriterien in 2005\")\n\nplot_balken\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 11:12:48"],"user":["Thomas Sattler"],"umph":[1730283168.0295],"ok":[true],"chunk":[25],"ex":[3],"e.ind":[0],"code":["plot_balken_final <- plot_balken +\n  scale_fill_manual(name=\"Rel. Schuldenquote\", \n                    labels = c(\"Erfuellt Maastricht\", \"Verletzt Maastricht\"),\n                    values = c(\"0\"=\"springgreen4\", \"1\"=\"red\"))\n\nplot_balken_final"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 11:12:48"],"user":["Thomas Sattler"],"umph":[1730283168.5727],"ok":[true],"chunk":[26],"ex":[3],"e.ind":[0],"code":["flipped_bars <- balken |>\n  filter(year==2005 |year== 2023) |>\n  ggplot(aes(x=country, y=relation)) + \n  geom_bar(stat=\"identity\", aes(fill=typ), width=0.5) +\n  xlab(\"Laender\") +\n  ylab(\"Relation\") +\n ggtitle(\"Einhaltung der Maastricht Kriterien in 2005 und 2023\") +\nfacet_wrap( year~., ncol=2) +\n  coord_flip()\n\nflipped_bars\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 11:12:49"],"user":["Thomas Sattler"],"umph":[1730283169.0779],"ok":[true],"chunk":[27],"ex":[3],"e.ind":[0],"code":["flipped_bars +\n  scale_fill_manual(name=\"Rel. Schuldenquote\", \n                    labels = c(\"Erfuellt Maastricht\", \"Verletzt Maastricht\"),\n                    values = c(\"0\"=\"springgreen4\", \"1\"=\"red\"))"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 11:13:12"],"user":["Thomas Sattler"],"umph":[1730283192.9011],"ok":[true],"chunk":[28],"ex":[3],"e.ind":[0],"code":["animated_bars <- balken |>\n  ggplot(aes(x=country, y=relation)) + \n  geom_bar(stat=\"identity\", aes(fill=typ), width=.5) +\n  xlab(\"Laender\") +\n  ylab(\"Relation\") +\n ggtitle(\"Einhaltung der Maastricht Kriterien in 2005 und 2023\") +\n  scale_fill_manual(name=\"Rel. Schuldenquote\", \n                    labels = c(\"Erfuellt Maastricht\", \"Verletzt Maastricht\"),\n                    values = c(\"0\"=\"springgreen4\", \"1\"=\"red\")) +\n  coord_flip()\n\n# enter your code here ...\n\nanimated_bars + transition_time(as.integer(year)) +\n  labs(title = \"Jahr: {frame_time}\")"],"message":[""]}
+,
+{"type":["grade_ps"],"time":["2024-10-30 11:13:35"],"user":["Thomas Sattler"],"umph":[1730283215.3382],"ok":[true]}
+,
+{"type":["init_ps"],"time":["2024-10-30 11:13:35"],"user":["Thomas Sattler"],"umph":[1730283215.4389],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 11:13:35"],"user":["Thomas Sattler"],"umph":[1730283215.5326],"ok":[true],"chunk":[1],"ex":[1],"e.ind":[0],"code":["library(tidyverse)\nlibrary(pander)\n\nlibrary(sf)\nlibrary(gganimate)\nlibrary(ggrepel)\nlibrary(skimr)\nlibrary(RColorBrewer)"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 11:13:36"],"user":["Thomas Sattler"],"umph":[1730283216.4173],"ok":[true],"chunk":[2],"ex":[1],"e.ind":[0],"code":["eu_makro<- read_csv(\"./data/EU_Makro.csv\")\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 11:13:36"],"user":["Thomas Sattler"],"umph":[1730283216.9406],"ok":[true],"chunk":[3],"ex":[1],"e.ind":[0],"code":["ueberblick=skim(eu_makro)\n# enter youbeur code here ...\nueberblick"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 11:13:37"],"user":["Thomas Sattler"],"umph":[1730283217.1955],"ok":[true],"chunk":[4],"ex":[1],"e.ind":[0],"code":["panderOptions('knitr.auto.asis', FALSE)\nueberblick |> pander(style=\"rmarkdown\") "],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 11:13:37"],"user":["Thomas Sattler"],"umph":[1730283217.2135],"ok":[true],"chunk":[5],"ex":[1],"e.ind":[0],"code":["2\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 11:13:37"],"user":["Thomas Sattler"],"umph":[1730283217.2335],"ok":[true],"chunk":[6],"ex":[1],"e.ind":[0],"code":["2\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 11:13:37"],"user":["Thomas Sattler"],"umph":[1730283217.4092],"ok":[true],"chunk":[7],"ex":[1],"e.ind":[0],"code":["deskriptives <- eu_makro |>\n  group_by(country) |>\n  summarize(Mittel = round(mean(debt_share_country, na.rm=TRUE),2),\n           SD = round(sd(debt_share_country, na.rm=TRUE),2),\n            Min = round(min(debt_share_country, na.rm=TRUE),2), \n            Median = round(median(debt_share_country, na.rm=TRUE),2),\n            Max = round(max(debt_share_country, na.rm=TRUE),2)) |>\n  arrange(desc(Median))\n\ndeskriptives\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 11:13:37"],"user":["Thomas Sattler"],"umph":[1730283217.6738],"ok":[true],"chunk":[8],"ex":[2],"e.ind":[0],"code":["eu_makro <- read_csv(\"./data/EU_Makro.csv\")"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 11:13:37"],"user":["Thomas Sattler"],"umph":[1730283217.8178],"ok":[true],"chunk":[9],"ex":[2],"e.ind":[0],"code":["deutschland= eu_makro |> \n    filter(country==\"Germany\")\n# enter your code here ...\ndeutschland\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 11:13:38"],"user":["Thomas Sattler"],"umph":[1730283218.0141],"ok":[true],"chunk":[10],"ex":[2],"e.ind":[0],"code":["g1 <- deutschland |>\n  ggplot() + geom_point(aes(x = year, y = gdp))\n\ng1\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 11:13:38"],"user":["Thomas Sattler"],"umph":[1730283218.3571],"ok":[true],"chunk":[11],"ex":[2],"e.ind":[0],"code":["g2 = g1 + geom_line(aes(x=year ,y=gov_debt))\ng2\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 11:13:38"],"user":["Thomas Sattler"],"umph":[1730283218.8547],"ok":[true],"chunk":[12],"ex":[2],"e.ind":[0],"code":[" g3 <- eu_makro |>\n   ggplot() + \n   geom_line(aes(x = year, y = debt_share_country, group=country, colour=country))\n\ng3\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 11:13:38"],"user":["Thomas Sattler"],"umph":[1730283218.8903],"ok":[true],"chunk":[13],"ex":[2],"e.ind":[0],"code":["eu_analyse <- eu_makro |>\n  filter(year>=1995) |>\n  mutate( Laender = case_when(\n    country == \"Germany\" ~ \"Deutschland\",\n    country == \"Italy\" ~ \"Italien\",\n    TRUE ~ \"Andere\"))\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 11:13:39"],"user":["Thomas Sattler"],"umph":[1730283219.4697],"ok":[true],"chunk":[14],"ex":[2],"e.ind":[0],"code":["g4 <- eu_analyse |>\n  ggplot() + \n  geom_line(aes(x = year, y = debt_share_country, group = country, colour = Laender))\n\ng4\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 11:13:39"],"user":["Thomas Sattler"],"umph":[1730283219.8154],"ok":[true],"chunk":[15],"ex":[2],"e.ind":[0],"code":["g5 <- g4 + \n  ylab(\"Schuldenquote\") + \n  xlab(\"Jahr\") +\n  scale_colour_manual(name = \"Laender\", \n                      values = c(\"grey\", \"springgreen4\", \"blue\"))\n\ng5\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 11:13:40"],"user":["Thomas Sattler"],"umph":[1730283220.4793],"ok":[true],"chunk":[16],"ex":[2],"e.ind":[0],"code":["final <- g5 +\n  ggtitle(\"Schuldenquote einzelner EU-Laender von 1995 - 2023\") +\n  geom_hline(yintercept =0.60, color = \"red\")\n\nfinal\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 11:13:41"],"user":["Thomas Sattler"],"umph":[1730283221.0268],"ok":[true],"chunk":[17],"ex":[2],"e.ind":[0],"code":["final +\n  theme_bw() +\n  guides(color = FALSE) +\n  geom_text_repel(aes(x = year, y = debt_share_country, label = Laender),\n                  data          = filter(eu_analyse |> filter(Laender!=\"Andere\", year==last(year))),\n                  size          = 4,\n                  box.padding   = 1.5,\n                  point.padding = 0.5,\n                  force         = 100,\n                  segment.size  = 0.2,\n                  segment.color = \"grey50\",\n                  direction     = \"x\")"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 11:13:41"],"user":["Thomas Sattler"],"umph":[1730283221.6248],"ok":[true],"chunk":[18],"ex":[3],"e.ind":[0],"code":["eu_makro <- read_csv(\"./data/EU_Makro.csv\")\neu_analyse <- eu_makro |>\n  filter(year>=1995) |>\n  mutate( Laender = case_when(\n    country == \"Germany\" ~ \"Deutschland\",\n    country == \"Italy\" ~ \"Italien\",\n    TRUE ~ \"Andere\"))"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 11:13:41"],"user":["Thomas Sattler"],"umph":[1730283221.9795],"ok":[true],"chunk":[19],"ex":[3],"e.ind":[0],"code":["eu_2005 <- eu_makro |> \n  filter(year==2005) |>\n  ggplot(aes(x=debt_share_country)) + \n  geom_histogram()\n\neu_2005\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 11:13:42"],"user":["Thomas Sattler"],"umph":[1730283222.5178],"ok":[true],"chunk":[20],"ex":[3],"e.ind":[0],"code":["eu_2005f <- eu_makro |>\n  filter(year==2005) |>\n  ggplot(aes(x=debt_share_country)) +\n  geom_histogram(binwidth = 0.01) + \n  ylab(\"Anzahl\") +\n  xlab(\"Schuldenquote\") +\n  geom_vline(xintercept = 0.6, color=\"red\", linetype=\"dashed\")\n\neu_2005f\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 11:13:43"],"user":["Thomas Sattler"],"umph":[1730283223.5533],"ok":[true],"chunk":[21],"ex":[3],"e.ind":[0],"code":["eu_vergleich <- eu_makro |> \n  filter(year==2005 | year==2010 |year== 2015 |year== 2020) |>\n  ggplot(aes(debt_share_country)) + \n  geom_histogram(binwidth = 0.01) +\n  geom_vline(xintercept = 0.6, color=\"red\", linetype=\"dashed\") +\n  xlab(\"Schuldenquote\") +\n  ylab(\"Anzahl\") +\n  ggtitle(\"Verteilung der Schuldenquote\") +\n  facet_wrap(year ~., nrow= 4)\n\neu_vergleich\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 11:13:43"],"user":["Thomas Sattler"],"umph":[1730283223.5716],"ok":[true],"chunk":[22],"ex":[3],"e.ind":[0],"code":["1\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 11:13:43"],"user":["Thomas Sattler"],"umph":[1730283223.6092],"ok":[true],"chunk":[23],"ex":[3],"e.ind":[0],"code":["balken <- eu_analyse |>\n  mutate( typ = factor(ifelse(debt_share_country>0.6,1,0)),\n          relation = debt_share_country - 0.6)\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 11:13:44"],"user":["Thomas Sattler"],"umph":[1730283224.394],"ok":[true],"chunk":[24],"ex":[3],"e.ind":[0],"code":["plot_balken <- balken |>\n  filter(year==2005) |>\n  ggplot(aes(x=country, y=relation)) + \n  geom_bar(stat=\"identity\", aes(fill=typ), width=0.5) +\n  xlab(\"Laender\") +\n  ylab(\"Relation\") +\n  ggtitle(\"Einhaltung der Maastricht Kriterien in 2005\")\n\nplot_balken\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 11:13:44"],"user":["Thomas Sattler"],"umph":[1730283224.7723],"ok":[true],"chunk":[25],"ex":[3],"e.ind":[0],"code":["plot_balken_final <- plot_balken +\n  scale_fill_manual(name=\"Rel. Schuldenquote\", \n                    labels = c(\"Erfuellt Maastricht\", \"Verletzt Maastricht\"),\n                    values = c(\"0\"=\"springgreen4\", \"1\"=\"red\"))\n\nplot_balken_final"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 11:13:45"],"user":["Thomas Sattler"],"umph":[1730283225.2764],"ok":[true],"chunk":[26],"ex":[3],"e.ind":[0],"code":["flipped_bars <- balken |>\n  filter(year==2005 |year== 2023) |>\n  ggplot(aes(x=country, y=relation)) + \n  geom_bar(stat=\"identity\", aes(fill=typ), width=0.5) +\n  xlab(\"Laender\") +\n  ylab(\"Relation\") +\n ggtitle(\"Einhaltung der Maastricht Kriterien in 2005 und 2023\") +\nfacet_wrap( year~., ncol=2) +\n  coord_flip()\n\nflipped_bars\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 11:13:45"],"user":["Thomas Sattler"],"umph":[1730283225.7718],"ok":[true],"chunk":[27],"ex":[3],"e.ind":[0],"code":["flipped_bars +\n  scale_fill_manual(name=\"Rel. Schuldenquote\", \n                    labels = c(\"Erfuellt Maastricht\", \"Verletzt Maastricht\"),\n                    values = c(\"0\"=\"springgreen4\", \"1\"=\"red\"))"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 11:14:12"],"user":["Thomas Sattler"],"umph":[1730283252.1092],"ok":[true],"chunk":[28],"ex":[3],"e.ind":[0],"code":["animated_bars <- balken |>\n  ggplot(aes(x=country, y=relation)) + \n  geom_bar(stat=\"identity\", aes(fill=typ), width=.5) +\n  xlab(\"Laender\") +\n  ylab(\"Relation\") +\n ggtitle(\"Einhaltung der Maastricht Kriterien in 2005 und 2023\") +\n  scale_fill_manual(name=\"Rel. Schuldenquote\", \n                    labels = c(\"Erfuellt Maastricht\", \"Verletzt Maastricht\"),\n                    values = c(\"0\"=\"springgreen4\", \"1\"=\"red\")) +\n  coord_flip()\n\n# enter your code here ...\n\nanimated_bars + transition_time(as.integer(year)) +\n  labs(title = \"Jahr: {frame_time}\")"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 11:14:12"],"user":["Thomas Sattler"],"umph":[1730283252.269],"ok":[true],"chunk":[29],"ex":[4],"e.ind":[0],"code":["dat <-  readRDS(\"./data/eu_macro_maps.Rds\")\nhead(dat)"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-10-30 11:14:13"],"user":["Thomas Sattler"],"umph":[1730283253.694],"ok":[true],"chunk":[30],"ex":[4],"e.ind":[0],"code":["# Erstelle die Spalte debt_share in Prozent und gerundet\ndat <-  dat |>\n  mutate(debt_share = round(100*gov_debt / gdp))\n# Erstelle die Spalte label fuer die Beschriftung zur Verschuldung\n# in der Karte\ndat <-  dat |>\n  mutate(label = paste0(cntry,\" \", debt_share,\"%\"))\n\n# Erstelle schoene Farbpalette \n# mit RColorBrewer\ncolours = rev(brewer.pal(8,\"RdYlGn\"))\ndat |>\n  ggplot() +\n  geom_sf(aes(fill=debt_share, geometry=geometry)) +\n  geom_sf_text(aes(label=label, geometry=geometry), size=3)+\n  theme_void() + \n  scale_fill_gradientn(colours = colours, name = \"Schuldenquote\") +\n  theme(panel.grid.major = element_line(color = \"white\"))\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["init_ps"],"time":["2024-11-07 13:18:19"],"user":["Thomas Sattler"],"umph":[1730981899.76],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:18:19"],"user":["Thomas Sattler"],"umph":[1730981899.7968],"ok":[true],"chunk":[1],"ex":[1],"e.ind":[0],"code":["library(tidyverse)\nlibrary(pander)\n\nlibrary(sf)\nlibrary(gganimate)\nlibrary(ggrepel)\nlibrary(skimr)\nlibrary(RColorBrewer)"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:18:20"],"user":["Thomas Sattler"],"umph":[1730981900.6571],"ok":[true],"chunk":[2],"ex":[1],"e.ind":[0],"code":["eu_makro<- read_csv(\"./data/EU_Makro.csv\")\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:18:21"],"user":["Thomas Sattler"],"umph":[1730981901.025],"ok":[true],"chunk":[3],"ex":[1],"e.ind":[0],"code":["ueberblick=skim(eu_makro)\n# enter youbeur code here ...\nueberblick"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:18:21"],"user":["Thomas Sattler"],"umph":[1730981901.1431],"ok":[true],"chunk":[4],"ex":[1],"e.ind":[0],"code":["panderOptions('knitr.auto.asis', FALSE)\nueberblick |> pander(style=\"rmarkdown\") "],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:18:21"],"user":["Thomas Sattler"],"umph":[1730981901.1559],"ok":[true],"chunk":[5],"ex":[1],"e.ind":[0],"code":["2\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:18:21"],"user":["Thomas Sattler"],"umph":[1730981901.1701],"ok":[true],"chunk":[6],"ex":[1],"e.ind":[0],"code":["2\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:18:21"],"user":["Thomas Sattler"],"umph":[1730981901.2642],"ok":[true],"chunk":[7],"ex":[1],"e.ind":[0],"code":["deskriptives <- eu_makro |>\n  group_by(country) |>\n  summarize(Mittel = round(mean(debt_share_country, na.rm=TRUE),2),\n           SD = round(sd(debt_share_country, na.rm=TRUE),2),\n            Min = round(min(debt_share_country, na.rm=TRUE),2), \n            Median = round(median(debt_share_country, na.rm=TRUE),2),\n            Max = round(max(debt_share_country, na.rm=TRUE),2)) |>\n  arrange(desc(Median))\n\ndeskriptives\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:18:21"],"user":["Thomas Sattler"],"umph":[1730981901.377],"ok":[true],"chunk":[8],"ex":[2],"e.ind":[0],"code":["eu_makro <- read_csv(\"./data/EU_Makro.csv\")"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:18:21"],"user":["Thomas Sattler"],"umph":[1730981901.4673],"ok":[true],"chunk":[9],"ex":[2],"e.ind":[0],"code":["deutschland= eu_makro |> \n    filter(country==\"Germany\")\n# enter your code here ...\ndeutschland\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:18:21"],"user":["Thomas Sattler"],"umph":[1730981901.6637],"ok":[true],"chunk":[10],"ex":[2],"e.ind":[0],"code":["g1 <- deutschland |>\n  ggplot() + geom_point(aes(x = year, y = gdp))\n\ng1\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:18:21"],"user":["Thomas Sattler"],"umph":[1730981901.8307],"ok":[true],"chunk":[11],"ex":[2],"e.ind":[0],"code":["g2 = g1 + geom_line(aes(x=year ,y=gov_debt))\ng2\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:18:22"],"user":["Thomas Sattler"],"umph":[1730981902.2248],"ok":[true],"chunk":[12],"ex":[2],"e.ind":[0],"code":[" g3 <- eu_makro |>\n   ggplot() + \n   geom_line(aes(x = year, y = debt_share_country, group=country, colour=country))\n\ng3\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:18:22"],"user":["Thomas Sattler"],"umph":[1730981902.2455],"ok":[true],"chunk":[13],"ex":[2],"e.ind":[0],"code":["eu_analyse <- eu_makro |>\n  filter(year>=1995) |>\n  mutate( Laender = case_when(\n    country == \"Germany\" ~ \"Deutschland\",\n    country == \"Italy\" ~ \"Italien\",\n    TRUE ~ \"Andere\"))\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:18:22"],"user":["Thomas Sattler"],"umph":[1730981902.6698],"ok":[true],"chunk":[14],"ex":[2],"e.ind":[0],"code":["g4 <- eu_analyse |>\n  ggplot() + \n  geom_line(aes(x = year, y = debt_share_country, group = country, colour = Laender))\n\ng4\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:18:22"],"user":["Thomas Sattler"],"umph":[1730981902.9086],"ok":[true],"chunk":[15],"ex":[2],"e.ind":[0],"code":["g5 <- g4 + \n  ylab(\"Schuldenquote\") + \n  xlab(\"Jahr\") +\n  scale_colour_manual(name = \"Laender\", \n                      values = c(\"grey\", \"springgreen4\", \"blue\"))\n\ng5\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:18:23"],"user":["Thomas Sattler"],"umph":[1730981903.1445],"ok":[true],"chunk":[16],"ex":[2],"e.ind":[0],"code":["final <- g5 +\n  ggtitle(\"Schuldenquote einzelner EU-Laender von 1995 - 2023\") +\n  geom_hline(yintercept =0.60, color = \"red\")\n\nfinal\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:18:23"],"user":["Thomas Sattler"],"umph":[1730981903.587],"ok":[true],"chunk":[17],"ex":[2],"e.ind":[0],"code":["final +\n  theme_bw() +\n  guides(color = FALSE) +\n  geom_text_repel(aes(x = year, y = debt_share_country, label = Laender),\n                  data          = filter(eu_analyse |> filter(Laender!=\"Andere\", year==last(year))),\n                  size          = 4,\n                  box.padding   = 1.5,\n                  point.padding = 0.5,\n                  force         = 100,\n                  segment.size  = 0.2,\n                  segment.color = \"grey50\",\n                  direction     = \"x\")"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:18:23"],"user":["Thomas Sattler"],"umph":[1730981903.8385],"ok":[true],"chunk":[18],"ex":[3],"e.ind":[0],"code":["eu_makro <- read_csv(\"./data/EU_Makro.csv\")\neu_analyse <- eu_makro |>\n  filter(year>=1995) |>\n  mutate( Laender = case_when(\n    country == \"Germany\" ~ \"Deutschland\",\n    country == \"Italy\" ~ \"Italien\",\n    TRUE ~ \"Andere\"))"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:18:24"],"user":["Thomas Sattler"],"umph":[1730981904.0945],"ok":[true],"chunk":[19],"ex":[3],"e.ind":[0],"code":["eu_2005 <- eu_makro |> \n  filter(year==2005) |>\n  ggplot(aes(x=debt_share_country)) + \n  geom_histogram()\n\neu_2005\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:18:24"],"user":["Thomas Sattler"],"umph":[1730981904.3585],"ok":[true],"chunk":[20],"ex":[3],"e.ind":[0],"code":["eu_2005f <- eu_makro |>\n  filter(year==2005) |>\n  ggplot(aes(x=debt_share_country)) +\n  geom_histogram(binwidth = 0.01) + \n  ylab(\"Anzahl\") +\n  xlab(\"Schuldenquote\") +\n  geom_vline(xintercept = 0.6, color=\"red\", linetype=\"dashed\")\n\neu_2005f\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:18:24"],"user":["Thomas Sattler"],"umph":[1730981904.8427],"ok":[true],"chunk":[21],"ex":[3],"e.ind":[0],"code":["eu_vergleich <- eu_makro |> \n  filter(year==2005 | year==2010 |year== 2015 |year== 2020) |>\n  ggplot(aes(debt_share_country)) + \n  geom_histogram(binwidth = 0.01) +\n  geom_vline(xintercept = 0.6, color=\"red\", linetype=\"dashed\") +\n  xlab(\"Schuldenquote\") +\n  ylab(\"Anzahl\") +\n  ggtitle(\"Verteilung der Schuldenquote\") +\n  facet_wrap(year ~., nrow= 4)\n\neu_vergleich\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:18:24"],"user":["Thomas Sattler"],"umph":[1730981904.8583],"ok":[true],"chunk":[22],"ex":[3],"e.ind":[0],"code":["1\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:18:24"],"user":["Thomas Sattler"],"umph":[1730981904.8796],"ok":[true],"chunk":[23],"ex":[3],"e.ind":[0],"code":["balken <- eu_analyse |>\n  mutate( typ = factor(ifelse(debt_share_country>0.6,1,0)),\n          relation = debt_share_country - 0.6)\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:18:25"],"user":["Thomas Sattler"],"umph":[1730981905.1293],"ok":[true],"chunk":[24],"ex":[3],"e.ind":[0],"code":["plot_balken <- balken |>\n  filter(year==2005) |>\n  ggplot(aes(x=country, y=relation)) + \n  geom_bar(stat=\"identity\", aes(fill=typ), width=0.5) +\n  xlab(\"Laender\") +\n  ylab(\"Relation\") +\n  ggtitle(\"Einhaltung der Maastricht Kriterien in 2005\")\n\nplot_balken\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:18:25"],"user":["Thomas Sattler"],"umph":[1730981905.3333],"ok":[true],"chunk":[25],"ex":[3],"e.ind":[0],"code":["plot_balken_final <- plot_balken +\n  scale_fill_manual(name=\"Rel. Schuldenquote\", \n                    labels = c(\"Erfuellt Maastricht\", \"Verletzt Maastricht\"),\n                    values = c(\"0\"=\"springgreen4\", \"1\"=\"red\"))\n\nplot_balken_final"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:18:25"],"user":["Thomas Sattler"],"umph":[1730981905.6349],"ok":[true],"chunk":[26],"ex":[3],"e.ind":[0],"code":["flipped_bars <- balken |>\n  filter(year==2005 |year== 2023) |>\n  ggplot(aes(x=country, y=relation)) + \n  geom_bar(stat=\"identity\", aes(fill=typ), width=0.5) +\n  xlab(\"Laender\") +\n  ylab(\"Relation\") +\n ggtitle(\"Einhaltung der Maastricht Kriterien in 2005 und 2023\") +\nfacet_wrap( year~., ncol=2) +\n  coord_flip()\n\nflipped_bars\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:18:25"],"user":["Thomas Sattler"],"umph":[1730981905.9385],"ok":[true],"chunk":[27],"ex":[3],"e.ind":[0],"code":["flipped_bars +\n  scale_fill_manual(name=\"Rel. Schuldenquote\", \n                    labels = c(\"Erfuellt Maastricht\", \"Verletzt Maastricht\"),\n                    values = c(\"0\"=\"springgreen4\", \"1\"=\"red\"))"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:18:40"],"user":["Thomas Sattler"],"umph":[1730981920.6912],"ok":[true],"chunk":[28],"ex":[3],"e.ind":[0],"code":["animated_bars <- balken |>\n  ggplot(aes(x=country, y=relation)) + \n  geom_bar(stat=\"identity\", aes(fill=typ), width=.5) +\n  xlab(\"Laender\") +\n  ylab(\"Relation\") +\n ggtitle(\"Einhaltung der Maastricht Kriterien in 2005 und 2023\") +\n  scale_fill_manual(name=\"Rel. Schuldenquote\", \n                    labels = c(\"Erfuellt Maastricht\", \"Verletzt Maastricht\"),\n                    values = c(\"0\"=\"springgreen4\", \"1\"=\"red\")) +\n  coord_flip()\n\n# enter your code here ...\n\nanimated_bars + transition_time(as.integer(year)) +\n  labs(title = \"Jahr: {frame_time}\")"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:18:40"],"user":["Thomas Sattler"],"umph":[1730981920.7541],"ok":[true],"chunk":[29],"ex":[4],"e.ind":[0],"code":["dat <-  readRDS(\"./data/eu_macro_maps.Rds\")\nhead(dat)"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:18:41"],"user":["Thomas Sattler"],"umph":[1730981921.6847],"ok":[true],"chunk":[30],"ex":[4],"e.ind":[0],"code":["# Erstelle die Spalte debt_share in Prozent und gerundet\ndat <-  dat |>\n  mutate(debt_share = round(100*gov_debt / gdp))\n# Erstelle die Spalte label fuer die Beschriftung zur Verschuldung\n# in der Karte\ndat <-  dat |>\n  mutate(label = paste0(cntry,\" \", debt_share,\"%\"))\n\n# Erstelle schoene Farbpalette \n# mit RColorBrewer\ncolours = rev(brewer.pal(8,\"RdYlGn\"))\ndat |>\n  ggplot() +\n  geom_sf(aes(fill=debt_share, geometry=geometry)) +\n  geom_sf_text(aes(label=label, geometry=geometry), size=3)+\n  theme_void() + \n  scale_fill_gradientn(colours = colours, name = \"Schuldenquote\") +\n  theme(panel.grid.major = element_line(color = \"white\"))\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["init_ps"],"time":["2024-11-07 13:50:35"],"user":["Thomas Sattler"],"umph":[1730983835.2981],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:50:35"],"user":["Thomas Sattler"],"umph":[1730983835.3359],"ok":[true],"chunk":[1],"ex":[1],"e.ind":[0],"code":["library(tidyverse)\nlibrary(pander)\n\nlibrary(sf)\nlibrary(gganimate)\nlibrary(ggrepel)\nlibrary(skimr)\nlibrary(RColorBrewer)"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:50:36"],"user":["Thomas Sattler"],"umph":[1730983836.104],"ok":[true],"chunk":[2],"ex":[1],"e.ind":[0],"code":["eu_makro<- read_csv(\"./data/EU_Makro.csv\")\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:50:36"],"user":["Thomas Sattler"],"umph":[1730983836.436],"ok":[true],"chunk":[3],"ex":[1],"e.ind":[0],"code":["ueberblick=skim(eu_makro)\n# enter youbeur code here ...\nueberblick"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:50:36"],"user":["Thomas Sattler"],"umph":[1730983836.5736],"ok":[true],"chunk":[4],"ex":[1],"e.ind":[0],"code":["panderOptions('knitr.auto.asis', FALSE)\nueberblick |> pander(style=\"rmarkdown\") "],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:50:36"],"user":["Thomas Sattler"],"umph":[1730983836.5884],"ok":[true],"chunk":[5],"ex":[1],"e.ind":[0],"code":["2\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:50:36"],"user":["Thomas Sattler"],"umph":[1730983836.6037],"ok":[true],"chunk":[6],"ex":[1],"e.ind":[0],"code":["2\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:50:36"],"user":["Thomas Sattler"],"umph":[1730983836.6919],"ok":[true],"chunk":[7],"ex":[1],"e.ind":[0],"code":["deskriptives <- eu_makro |>\n  group_by(country) |>\n  summarize(Mittel = round(mean(debt_share_country, na.rm=TRUE),2),\n           SD = round(sd(debt_share_country, na.rm=TRUE),2),\n            Min = round(min(debt_share_country, na.rm=TRUE),2), \n            Median = round(median(debt_share_country, na.rm=TRUE),2),\n            Max = round(max(debt_share_country, na.rm=TRUE),2)) |>\n  arrange(desc(Median))\n\ndeskriptives\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:50:36"],"user":["Thomas Sattler"],"umph":[1730983836.7873],"ok":[true],"chunk":[8],"ex":[2],"e.ind":[0],"code":["eu_makro <- read_csv(\"./data/EU_Makro.csv\")"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:50:36"],"user":["Thomas Sattler"],"umph":[1730983836.8814],"ok":[true],"chunk":[9],"ex":[2],"e.ind":[0],"code":["deutschland= eu_makro |> \n    filter(country==\"Germany\")\n# enter your code here ...\ndeutschland\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:50:37"],"user":["Thomas Sattler"],"umph":[1730983837.0487],"ok":[true],"chunk":[10],"ex":[2],"e.ind":[0],"code":["g1 <- deutschland |>\n  ggplot() + geom_point(aes(x = year, y = gdp))\n\ng1\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:50:37"],"user":["Thomas Sattler"],"umph":[1730983837.211],"ok":[true],"chunk":[11],"ex":[2],"e.ind":[0],"code":["g2 = g1 + geom_line(aes(x=year ,y=gov_debt))\ng2\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:50:37"],"user":["Thomas Sattler"],"umph":[1730983837.5817],"ok":[true],"chunk":[12],"ex":[2],"e.ind":[0],"code":[" g3 <- eu_makro |>\n   ggplot() + \n   geom_line(aes(x = year, y = debt_share_country, group=country, colour=country))\n\ng3\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:50:37"],"user":["Thomas Sattler"],"umph":[1730983837.6091],"ok":[true],"chunk":[13],"ex":[2],"e.ind":[0],"code":["eu_analyse <- eu_makro |>\n  filter(year>=1995) |>\n  mutate( Laender = case_when(\n    country == \"Germany\" ~ \"Deutschland\",\n    country == \"Italy\" ~ \"Italien\",\n    TRUE ~ \"Andere\"))\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:50:38"],"user":["Thomas Sattler"],"umph":[1730983838.0438],"ok":[true],"chunk":[14],"ex":[2],"e.ind":[0],"code":["g4 <- eu_analyse |>\n  ggplot() + \n  geom_line(aes(x = year, y = debt_share_country, group = country, colour = Laender))\n\ng4\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:50:38"],"user":["Thomas Sattler"],"umph":[1730983838.2716],"ok":[true],"chunk":[15],"ex":[2],"e.ind":[0],"code":["g5 <- g4 + \n  ylab(\"Schuldenquote\") + \n  xlab(\"Jahr\") +\n  scale_colour_manual(name = \"Laender\", \n                      values = c(\"grey\", \"springgreen4\", \"blue\"))\n\ng5\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:50:38"],"user":["Thomas Sattler"],"umph":[1730983838.4966],"ok":[true],"chunk":[16],"ex":[2],"e.ind":[0],"code":["final <- g5 +\n  ggtitle(\"Schuldenquote einzelner EU-Laender von 1995 - 2023\") +\n  geom_hline(yintercept =0.60, color = \"red\")\n\nfinal\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:50:38"],"user":["Thomas Sattler"],"umph":[1730983838.9242],"ok":[true],"chunk":[17],"ex":[2],"e.ind":[0],"code":["final +\n  theme_bw() +\n  guides(color = FALSE) +\n  geom_text_repel(aes(x = year, y = debt_share_country, label = Laender),\n                  data          = filter(eu_analyse |> filter(Laender!=\"Andere\", year==last(year))),\n                  size          = 4,\n                  box.padding   = 1.5,\n                  point.padding = 0.5,\n                  force         = 100,\n                  segment.size  = 0.2,\n                  segment.color = \"grey50\",\n                  direction     = \"x\")"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:50:39"],"user":["Thomas Sattler"],"umph":[1730983839.1666],"ok":[true],"chunk":[18],"ex":[3],"e.ind":[0],"code":["eu_makro <- read_csv(\"./data/EU_Makro.csv\")\neu_analyse <- eu_makro |>\n  filter(year>=1995) |>\n  mutate( Laender = case_when(\n    country == \"Germany\" ~ \"Deutschland\",\n    country == \"Italy\" ~ \"Italien\",\n    TRUE ~ \"Andere\"))"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:50:39"],"user":["Thomas Sattler"],"umph":[1730983839.3406],"ok":[true],"chunk":[19],"ex":[3],"e.ind":[0],"code":["eu_2005 <- eu_makro |> \n  filter(year==2005) |>\n  ggplot(aes(x=debt_share_country)) + \n  geom_histogram()\n\neu_2005\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:50:39"],"user":["Thomas Sattler"],"umph":[1730983839.578],"ok":[true],"chunk":[20],"ex":[3],"e.ind":[0],"code":["eu_2005f <- eu_makro |>\n  filter(year==2005) |>\n  ggplot(aes(x=debt_share_country)) +\n  geom_histogram(binwidth = 0.01) + \n  ylab(\"Anzahl\") +\n  xlab(\"Schuldenquote\") +\n  geom_vline(xintercept = 0.6, color=\"red\", linetype=\"dashed\")\n\neu_2005f\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:50:40"],"user":["Thomas Sattler"],"umph":[1730983840.1195],"ok":[true],"chunk":[21],"ex":[3],"e.ind":[0],"code":["eu_vergleich <- eu_makro |> \n  filter(year==2005 | year==2010 |year== 2015 |year== 2020) |>\n  ggplot(aes(debt_share_country)) + \n  geom_histogram(binwidth = 0.01) +\n  geom_vline(xintercept = 0.6, color=\"red\", linetype=\"dashed\") +\n  xlab(\"Schuldenquote\") +\n  ylab(\"Anzahl\") +\n  ggtitle(\"Verteilung der Schuldenquote\") +\n  facet_wrap(year ~., nrow= 4)\n\neu_vergleich\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:50:40"],"user":["Thomas Sattler"],"umph":[1730983840.132],"ok":[true],"chunk":[22],"ex":[3],"e.ind":[0],"code":["1\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:50:40"],"user":["Thomas Sattler"],"umph":[1730983840.1495],"ok":[true],"chunk":[23],"ex":[3],"e.ind":[0],"code":["balken <- eu_analyse |>\n  mutate( typ = factor(ifelse(debt_share_country>0.6,1,0)),\n          relation = debt_share_country - 0.6)\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:50:40"],"user":["Thomas Sattler"],"umph":[1730983840.3832],"ok":[true],"chunk":[24],"ex":[3],"e.ind":[0],"code":["plot_balken <- balken |>\n  filter(year==2005) |>\n  ggplot(aes(x=country, y=relation)) + \n  geom_bar(stat=\"identity\", aes(fill=typ), width=0.5) +\n  xlab(\"Laender\") +\n  ylab(\"Relation\") +\n  ggtitle(\"Einhaltung der Maastricht Kriterien in 2005\")\n\nplot_balken\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:50:40"],"user":["Thomas Sattler"],"umph":[1730983840.5891],"ok":[true],"chunk":[25],"ex":[3],"e.ind":[0],"code":["plot_balken_final <- plot_balken +\n  scale_fill_manual(name=\"Rel. Schuldenquote\", \n                    labels = c(\"Erfuellt Maastricht\", \"Verletzt Maastricht\"),\n                    values = c(\"0\"=\"springgreen4\", \"1\"=\"red\"))\n\nplot_balken_final"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:50:40"],"user":["Thomas Sattler"],"umph":[1730983840.8885],"ok":[true],"chunk":[26],"ex":[3],"e.ind":[0],"code":["flipped_bars <- balken |>\n  filter(year==2005 |year== 2023) |>\n  ggplot(aes(x=country, y=relation)) + \n  geom_bar(stat=\"identity\", aes(fill=typ), width=0.5) +\n  xlab(\"Laender\") +\n  ylab(\"Relation\") +\n ggtitle(\"Einhaltung der Maastricht Kriterien in 2005 und 2023\") +\nfacet_wrap( year~., ncol=2) +\n  coord_flip()\n\nflipped_bars\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:50:41"],"user":["Thomas Sattler"],"umph":[1730983841.1813],"ok":[true],"chunk":[27],"ex":[3],"e.ind":[0],"code":["flipped_bars +\n  scale_fill_manual(name=\"Rel. Schuldenquote\", \n                    labels = c(\"Erfuellt Maastricht\", \"Verletzt Maastricht\"),\n                    values = c(\"0\"=\"springgreen4\", \"1\"=\"red\"))"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:50:55"],"user":["Thomas Sattler"],"umph":[1730983855.6928],"ok":[true],"chunk":[28],"ex":[3],"e.ind":[0],"code":["animated_bars <- balken |>\n  ggplot(aes(x=country, y=relation)) + \n  geom_bar(stat=\"identity\", aes(fill=typ), width=.5) +\n  xlab(\"Laender\") +\n  ylab(\"Relation\") +\n ggtitle(\"Einhaltung der Maastricht Kriterien in 2005 und 2023\") +\n  scale_fill_manual(name=\"Rel. Schuldenquote\", \n                    labels = c(\"Erfuellt Maastricht\", \"Verletzt Maastricht\"),\n                    values = c(\"0\"=\"springgreen4\", \"1\"=\"red\")) +\n  coord_flip()\n\n# enter your code here ...\n\nanimated_bars + transition_time(as.integer(year)) +\n  labs(title = \"Jahr: {frame_time}\")"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:50:55"],"user":["Thomas Sattler"],"umph":[1730983855.7367],"ok":[true],"chunk":[29],"ex":[4],"e.ind":[0],"code":["dat <-  readRDS(\"./data/eu_macro_maps.Rds\")\nhead(dat)"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-11-07 13:50:56"],"user":["Thomas Sattler"],"umph":[1730983856.5496],"ok":[true],"chunk":[30],"ex":[4],"e.ind":[0],"code":["# Erstelle die Spalte debt_share in Prozent und gerundet\ndat <-  dat |>\n  mutate(debt_share = round(100*gov_debt / gdp))\n# Erstelle die Spalte label fuer die Beschriftung zur Verschuldung\n# in der Karte\ndat <-  dat |>\n  mutate(label = paste0(cntry,\" \", debt_share,\"%\"))\n\n# Erstelle schoene Farbpalette \n# mit RColorBrewer\ncolours = rev(brewer.pal(8,\"RdYlGn\"))\ndat |>\n  ggplot() +\n  geom_sf(aes(fill=debt_share, geometry=geometry)) +\n  geom_sf_text(aes(label=label, geometry=geometry), size=3)+\n  theme_void() + \n  scale_fill_gradientn(colours = colours, name = \"Schuldenquote\") +\n  theme(panel.grid.major = element_line(color = \"white\"))\n\n# enter your code here ...\n"],"message":[""]}
+,
+{"type":["check_ps"],"time":["2024-11-07 13:54:44"],"user":["Thomas Sattler"],"umph":[1730984084.5176],"ok":[true]}
+,
+{"type":["check_ps"],"time":["2024-11-07 13:54:47"],"user":["Thomas Sattler"],"umph":[1730984087.0324],"ok":[true]}
+,
+{"type":["check_ps"],"time":["2024-11-07 16:23:53"],"user":["Thomas Sattler"],"umph":[1730993033.4033],"ok":[true]}
+,

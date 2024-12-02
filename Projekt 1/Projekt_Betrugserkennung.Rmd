@@ -1,0 +1,399 @@
+---
+title: "Betrugserkennung bei Unternehmen: Testen von Journaleinträgen"
+output: 
+  html_document:
+    theme: cosmo
+    toc: true
+    toc_float: true
+    keep_md: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message=FALSE, warning = FALSE)
+```
+
+# Motivation
+
+Durch Analysemethoden aus dem Bereich Business Analytics können Unternehmen wertvolle Erkenntnisse gewinnen, welche meist in den vorhandenen Daten schlummern. Diese Erkenntnis ist auch den Wirtschaftsprüfungsgesellschaften nicht neu, daher sind Personen mit Kenntnissen der Datenanalyse sehr gefragt. Leider fehlt es vielen Betriebs- und Volkswirtschaftler:innen an diesen Fähigkeiten, die zur Verbesserung der Entscheidungsfindung in einem Unternehmen so wichtig sind. Im Rahmen einer Wirtschaftsprüfung kann die Kenntnis der Datenanalyse beispielsweise die Effizienz einer Prüfung deutlich erhöhen. Diese Projektarbeit bietet Ihnen eine praktische Gelegenheit, die im Projektkurs erlernten Datenanalysefähigkeiten auf die Wirtschaftsprüfung anzuwenden. Hierbei werden Sie Journalbuchung analysieren - ein Standardverfahren in der Wirtschaftsprüfung - und dabei automatisiert, nachvollziehbar und reproduzierbar Indikatoren identifizieren, die auf Betrug hindeuten. Hierfür analysieren Sie die von ihrem Mandanten bereitgestellten Informationen in zwei Phasen:
+
+Zunächst erfahren Sie in Phase I, wie Sie eine der zentralen Herausforderungen bei der Verwendung von „Big Data“ angehen: die Datenvalidierung. Hierfür prüfen Sie die Genauigkeit des Sachbearbeiters und die vom Mandanten zur Verfügung gestellten Dateien auf Vollständigkeit. In Phase II validieren Sie Daten eines zweiten Mandanten und führen dann anschließend eine Reihe von Tests durch, um Indikatoren (sog. „red flags“) für Betrug zu identifizieren.
+
+# Daten
+
+Um potentiell falsche und risikobehaftete Buchungseinträge zu erkennen, ist es von entscheidender Bedeutung, dass Sie als Prüfer die verschiedenen Arten von Einträgen im Buchführungssystem verstehen. Dadurch können Sie die mit jeder Art von Transaktion verbundenen Risiken angemessen bewerten. Im Anhang "Journaleinträge" wird erläutert, welche unterschiedlichen Arten von Journaleinträgen es gibt. Diesen Anhang sollten Sie bei ihrem Projekt beachten.
+
+## Phase I: Verifizierung von Genauigkeit und Vollständigkeit elektronischer Unterlagen
+
+Lesen Sie die folgenden Dateien von Mandant A in R ein:
+
+a.  Kontenplan.csv
+b.  Zusammenfassung_automatisierter_JB.csv
+c.  Rohbilanz.xlsx
+d.  Manuelle_JB.txt
+
+Verschaffen Sie sich einen Überblick über die Daten:
+
+1.  Welche Informationen werden in diesen Dateien dargestellt? Gehen Sie *kurz* auf jede Datei einzeln ein.
+
+------------------------------------------------------------------------
+
+**Kontenplan.csv**
+
+Im Kontenplan sind alle Konten mit Kontonummern, Kontotyp, und Beschreibung aufgelistet.
+
+**Zusammenfassung_automatisierter_JB.csv**
+
+In dieser Datei sind alle Änderungen durch automatisierte Journalbuchungen auf Konten summiert zusammengefasst.
+
+**Rohbilanz.xlsx**
+
+In dieser Datei sind alle Konten der Bilanz und der GuV aufgelistet sowie deren Beträge zum Dezember 2016 und zum Juni 2017 und die Nettoveränderung zwischen den beiden Daten.
+
+**Manuelle_JB.txt**
+
+In dieser Datei sind alle manuellen Journalbuchungen mit Kontonummern, Datum, Betrag und Referenz aufgelistet.
+
+------------------------------------------------------------------------
+
+2.  Führen Sie die Dateien anhand der Spalten "Konto" und "Unterkonto" zusammen. Nennen Sie ihren neuen Datensatz "Daten_MandantA".
+    -   Stellen Sie sicher, dass alle Spaltenwerte richtig formatiert sind, d.h. String-Variablen welche ausschließlich numerische Werte enthalten sollten entsprechend umformatiert werden
+
+Analysieren und validieren Sie die Inhalte der Dateien, d.h. prüfen Sie insbesondere die Vollständigkeit der manuellen Journalbuchungen, um festzustellen, ob alle manuellen Journalbuchungen für den Zeitraum vorhanden sind. Hierzu sollten Sie folgende Schritte durchführen, bzw. Fragen beantworten:
+
+------------------------------------------------------------------------
+
+```{r}
+#Laden der libraries
+library(tidyverse)
+library(readxl)
+library(lubridate)
+library(kableExtra)
+
+#Einlesen der Daten
+Kontenplan <- read_csv2("Daten/Kontenplan.csv")
+Zusammenfassung_automatisierter_JB <- read_csv2("Daten/Zusammenfassung_automatisierter_JB.csv")
+Rohbilanz <- read_xlsx("Daten/Rohbilanz.xlsx")
+Manuelle_JB <- read_delim("Daten/Manuelle_JB.txt", delim="|")
+
+#Manuelle Einträge zusammenfassen
+Zusammenfassung_manueller_JB <- Manuelle_JB |>
+  group_by(Konto, Unterkonto) |>
+  summarise(Betrag = sum(Betrag))
+
+Daten_MandantA <- left_join(Kontenplan, Zusammenfassung_automatisierter_JB, by = c("Konto", "Unterkonto"))
+
+Daten_MandantA <- Daten_MandantA |> 
+  left_join(Zusammenfassung_manueller_JB, by = c("Konto", "Unterkonto"))
+
+Daten_MandantA <- Daten_MandantA |> 
+  left_join(Rohbilanz, by = c("Konto", "Unterkonto"))
+```
+
+------------------------------------------------------------------------
+
+3.  Warum ist es ihrer Meinung nach wichtig, eine Vollständigkeitsprüfung durchzuführen?
+
+------------------------------------------------------------------------
+
+Eine Vollständigkeitsprüfung ist wichtig, da so am einfachsten festgestellt werden kann, ob Buchungen fehlen oder doppelt auftreten. Unvollständige Daten können einerseits auf Fehler, aber auch auf eine absichtliche Manipulation der Bücher hindeuten. (reicht das so?)
+
+------------------------------------------------------------------------
+
+4.  Generieren Sie sich eine neue Spalte in "Daten_MandantA" in der Sie den *Betrag* pro "Konto"+"Unterkonto" Kombination aggregieren. Nennen Sie diese Spalte *BetragMJE* und runden Sie den Betrag auf zwei Nachkommastellen.
+
+------------------------------------------------------------------------
+
+```{r}
+Daten_MandantA <- Daten_MandantA |>
+  group_by(Konto, Unterkonto) |>
+  mutate(BetragMJE = round(sum(Betrag), digit=2)) |>
+  ungroup()
+```
+
+------------------------------------------------------------------------
+
+5.  Benennen Sie die Spalte *Nettobetrag* zu *BetragAJE* um und runden Sie den Betrag auf zwei Nachkommastellen.
+
+------------------------------------------------------------------------
+
+```{r}
+Daten_MandantA <- Daten_MandantA |> 
+  mutate(BetragAJE = round(Nettobetrag,digits = 2)) |>
+  select(-Nettobetrag)
+```
+
+------------------------------------------------------------------------
+
+6.  Generieren Sie sich eine neue Spalte *Aktivität* welche die Werte von *BetragMJE* und *BetragAJE* pro Konto aufsummiert. Runden Sie den Betrag auf zwei Nachkommastellen.
+
+------------------------------------------------------------------------
+
+```{r}
+Daten_MandantA <- Daten_MandantA |>
+  group_by(Konto) |>
+  mutate(Aktivität = round(sum(c(BetragMJE, BetragAJE), na.rm = TRUE), digits = 2)) |>
+  ungroup()
+```
+
+------------------------------------------------------------------------
+
+7.  Generieren Sie sich eine neue Spalte *Differenz* in welcher Sie die Differenz zwischen den *Nettoveränderungen* und der *Aktivität* bilden.
+
+------------------------------------------------------------------------
+
+```{r}
+Daten_MandantA <- Daten_MandantA |>
+  mutate(Differenz = Nettoveränderung - Aktivität)
+```
+
+------------------------------------------------------------------------
+
+8.  Erzeugen Sie eine Tabelle in der Sie alle *Differenzen* zwischen der Bilanz und den Einzelbuchungen, die ungleich 0 sind, auflisten.
+    -   Beschreiben Sie die Tabelle!
+        -   Sind Differenzen vorhanden?
+        -   Wie können solche Differenzen zustande kommen?
+
+------------------------------------------------------------------------
+
+```{r}
+Aufgabe8 <- Daten_MandantA |>
+  filter( Differenz != 0) |>
+  group_by(Konto, Unterkonto) |>
+  summarise(Konto_Differenzen = round(sum(Differenz), digits = 2))
+  
+Aufgabe8 |>
+  kbl(col.names = c("Konto", "Unterkonto", "Differenz"),
+      caption = "Differenzen zwischen der Bilanz und den Einzelbuchungen") |>
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive")) |>
+  kable_paper(full_width = TRUE) 
+
+```
+
+In der Tabelle sieht man, dass die Konten 1100 und 2150 eine negative und das Konto 1191 eine positive Differenz zwischen Bilanz und den Einzelbuchungen vorweisen. Dass die Summe der drei Werte 0 beträgt, lässt darauf schließen, dass einzelne Buchungen vergessen wurden, da sich die Differenzen gegenseitig aufheben.
+
+------------------------------------------------------------------------
+
+Nachdem Sie ihre Ergebnisse dem Mandanten A vorgelegt haben erhalten Sie die folgende Datei, welche Sie wieder in R einlesen:
+
+e.  Manuelle_JB_neu.txt
+
+```{r}
+Manuelle_JB_neu <- read_delim("Daten/Manuelle_JB_neu.txt", delim="|")
+```
+
+Nun sollten Sie diese Datei mit der bisherigen "Manuelle_JB.txt" Datei vergleichen:
+
+9.  Geben Sie nur die Zeilen aus, die in "Manuelle_JB_neu.txt" enthalten sind, aber nicht in "Manuelle_JB.txt".
+
+------------------------------------------------------------------------
+
+```{r}
+Aufgabe9 <- anti_join(Manuelle_JB_neu, Manuelle_JB) |>
+  select(Konto, Unterkonto, Betrag)
+
+Aufgabe9 |>
+  kbl(col.names = c("Konto", "Unterkonto", "Betrag"),
+      caption = "Aktualisierte manuelle Buchungen") |>
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive")) |>
+  kable_paper(full_width = TRUE) 
+```
+
+------------------------------------------------------------------------
+
+10. Erstellen Sie eine neue Tabelle, wie in Aufgabe 8, nur dieses mal auf der Grundlage der Informationen aus "Manuelle_JB_neu.txt".
+    -   Was fällt ihnen hierbei auf?
+
+Hinweise und Hilfestellungen für die Buchungslogik zwischen den Haupt- und Nebenbüchern finden Sie im Anhang unter dem Punkt "Merkblatt".
+
+------------------------------------------------------------------------
+
+```{r}
+#Manuelle Einträge zusammenfassen
+Zusammenfassung_manueller_JB_neu <- Manuelle_JB_neu |>
+  group_by(Konto, Unterkonto) |>
+  summarise(Betrag = sum(Betrag))
+
+Daten_MandantA <- left_join(Kontenplan, Zusammenfassung_automatisierter_JB, by = c("Konto", "Unterkonto"))
+
+Daten_MandantA <- Daten_MandantA |> 
+  left_join(Zusammenfassung_manueller_JB_neu, by = c("Konto", "Unterkonto"))
+
+Daten_MandantA <- Daten_MandantA |> 
+  left_join(Rohbilanz, by = c("Konto", "Unterkonto"))
+
+Daten_MandantA <- Daten_MandantA |>
+  group_by(Konto, Unterkonto) |>
+  mutate(BetragMJE = round(sum(Betrag), digit=2)) |>
+  rename(BetragAJE = Nettobetrag) |>
+  mutate(BetragAJE = round(BetragAJE,digits = 2))
+
+Daten_MandantA <- Daten_MandantA |>
+  group_by(Konto) |>
+  mutate(Aktivität = round(sum(c(BetragMJE, BetragAJE), na.rm = TRUE), digits = 2))
+
+Daten_MandantA <- Daten_MandantA |>
+  mutate(Differenz = Nettoveränderung - Aktivität)
+
+Aufgabe10 <- Daten_MandantA |>
+  filter( Differenz != 0) |>
+  group_by(Konto, Unterkonto) |>
+  summarise(Konto_Differenzen = round(sum(Differenz), digits = 2))
+
+Aufgabe10 |>
+  kbl(col.names = c("Konto", "Unterkonto", "Differenz"),
+      caption = "Differenzen zwischen der Bilanz und den Einzelbuchungen") |>
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive")) |>
+  kable_paper(full_width = TRUE) 
+
+```
+
+Es fällt auf, dass mit den aktualisierten Buchungen keine Differenzen mehr vorliegen. Das bedeutet, dass die Buchungen, die zuvor gefehlt haben, in der nachgelieferten Datei enthalten waren. Somit sind die Daten nun vollständig.
+
+------------------------------------------------------------------------
+
+## Phase II: Verifizerung von Vollständigkeit + Analysen
+
+Lesen Sie die folgenden Dateien in R ein:
+
+f.  HauptbucheinträgeMan.csv
+g.  Kontensalden.txt
+
+Fügen Sie die Dateien zu einem Datensatz ("Daten_MandantB") zusammen. Prüfen Sie die Vollständigkeit der Daten, analog zu Phase I.
+
+11. Finden Sie Differenzen bei den Konto Beträgen der zwei Dateien f. und g.?
+
+------------------------------------------------------------------------
+
+Hier bitte ihren **Code und** ihre **Antwort** eintragen
+
+------------------------------------------------------------------------
+
+# Deskriptive Analyse
+
+12. Daran anschließend sind Buchungen (pro HbEID) zu ermitteln, bei denen ein Fehler in der „Soll-an-Haben“-Logik festgestellt wird. Bei jedem Buchungssatz muss sich der Soll-Betrag mit dem Haben-Betrag ausgleichen. Beschreiben und interpretieren Sie ihre Tabelle, gehen Sie hierbei insbesondere auf die folgenden Fragen ein:
+    -   Werden manche HbEIDs mehrmals verwendet? Wenn ja, wie oft kommt dies vor?
+    -   In welchem Intervall liegen die sich ergebenden Differenzen? Stellen Sie die Differenzen absteigend sortiert in einer Tabelle dar.
+    -   Wie sind solche Differenzen zu erklären und ergeben sich dadurch neue Prüfungshandlungen?
+    -   Wie wäre ihre Empfehlung um zu vermeiden, dass HbEID’s mehrmals verwendet werden?
+
+*Hinweis zu Aufgabe 12:* Jede Buchungs-ID (HbEID) wird lediglich einmal am Tag verwendet. Sie müssen bei der Fehlerprüfung somit auch nach dem Datum unterscheiden. Überlegen Sie gut, welches Datum hier relevant ist.
+
+------------------------------------------------------------------------
+
+Hier bitte ihren **Code und** ihre **Antwort** eintragen
+
+------------------------------------------------------------------------
+
+13. Führen Sie eine Analyse der betragsmäßig fünf größten Konten durch (Soll- und Habensaldo)
+    -   Erstellen Sie hierbei zwei neue Variablen in denen Sie zum einen das Sollsaldo und zum anderen das Habensaldo über die Kontonummer aufsummieren.
+    -   Was fällt Ihnen bei den Kontenbezeichnungen auf?
+    -   Gibt es hier ein Risiko, würden Sie weitere Prüfungshandlungen durchführen?
+
+------------------------------------------------------------------------
+
+Hier bitte ihren **Code und** ihre **Antwort** eintragen
+
+------------------------------------------------------------------------
+
+14. Betrügerische Absichten können unter anderem an Buchungen identifiziert werden, welche an ungewöhnlichen Tagen durchgeführt wurden, bspw. an den gesetzlichen Feiertagen: Karfreitag, Ostermontag, Pfingstmontag oder der 1. Weihnachtsfeiertag.
+    -   Wenn Sie diese Buchungen identifiziern möchten, nach welcher Datumsspalte müssen Sie filtern?
+    -   Sind diese Feiertage in ihrem Datensatz enthalten? Wenn ja, dann ermitteln Sie das Datum des jeweiligen Feiertags in 2017 und erstellen Sie eine neue Spalte "Feiertag", welche 1 an einem Feiertag ist, 0 sonst.
+    -   Erstellen Sie eine Tabelle, welche pro Feiertag den gebuchten Tagesbetrag pro "HbEID, Buchungstext" auflistet.
+    -   Beschreiben und interpretieren Sie ihre Tabelle.
+
+------------------------------------------------------------------------
+
+Hier bitte ihren **Code und** ihre **Antwort** eintragen
+
+------------------------------------------------------------------------
+
+15. Ermitteln Sie die Anzahl der Buchungen, die pro Stunde durchgeführt werden. Gehen Sie dabei von einer Kernarbeitszeit im Unternehmen von 07:00 Uhr bis 20:00 Uhr aus.
+    -   Stellen Sie ihre Ergebnisse in einer geeigneten Grafik dar.
+    -   Markieren Sie die Kernarbeitszeit in geeigneter Weise in ihrer Grafik.
+    -   Was fällt ihnen an dieser Grafik auf, insbesondere im Hinblick auf die zeitliche Verteilung der Buchungen?
+    -   Beschreiben und interpretieren Sie ihre Grafik.
+
+------------------------------------------------------------------------
+
+Hier bitte ihren **Code und** ihre **Antwort** eintragen
+
+------------------------------------------------------------------------
+
+16. Diese zeitliche Verteilung der Buchungen sollten Sie etwas genauer betrachten:
+    -   Stellen Sie in einer geeigneten Grafik den Endbetrag, welcher außerhalb der Kernarbeitszeit gebucht wird, dem Endbetrag innerhalb der Kernarbeitszeit gegenüber für alle Buchungen in denen der Endbetrag \> 0 (d.h. für das Soll-Konto).
+    -   Beschreiben und interpretieren Sie ihre Grafik.
+
+------------------------------------------------------------------------
+
+Hier bitte ihren **Code und** ihre **Antwort** eintragen
+
+------------------------------------------------------------------------
+
+Auch sogenannte nachträgliche Buchungen spielen eine wichtige Rolle bei der Abschlussprüfung. Dabei handelt es sich um Buchungen, die X Tage nach dem Stichtag nachträglich in die zu prüfende Buchungsperiode gebucht wurden.
+
+17. Erstellen Sie eine Tabelle, welche die Buchungen auflistet, die nach mehr als 5 Tagen nachträglich eingebucht wurden. Der für ihren Abschluss entscheidende Stichtag ist der 30.06.2017.
+    -   Welche Datumsspalten sind hierfür wichtig?
+    -   Beschreiben und interpretieren Sie ihre Tabelle.
+
+------------------------------------------------------------------------
+
+Hier bitte ihren **Code und** ihre **Antwort** eintragen
+
+------------------------------------------------------------------------
+
+18. Schlussendlich ist es in der Abschlussprüfung auch interessant zu wissen, wer die einzelnen Buchungen im Unternehmen durchgeführt hat um hier auf Einzelpersonenebene betrügerische Handlungen aufzudecken. Erstellen Sie eine Grafik, in der zu erkennen ist, wie viele Buchungen pro Nutzer durchgeführt wurden und wie hoch diese Buchungen waren.
+    -   Beschreiben Sie ihre Grafik.
+    -   Welche Risiken/Fehler können durch die Ermittlung des Buchungsumfangs der einzelnen Benutzer aufgedeckt werden?
+
+------------------------------------------------------------------------
+
+Hier bitte ihren **Code und** ihre **Antwort** eintragen
+
+------------------------------------------------------------------------
+
+# Anhang
+
+## Journaleinträge
+
+Rechnungslegungssysteme bestehen in der Regel aus zwei Arten von Journalbuchungen. Automatische Journalbuchungen stammen aus den verschiedenen Nebenbüchern und buchen wiederkehrende Standardbuchungen direkt in das Hauptbuch. Manuelle Buchungseinträge hingegen werden von Einzelpersonen erstellt, um wirtschaftliche Aktivitäten außerhalb der Nebenbücher zu erfassen. Einige dieser manuellen Einträge stellen normale, wiederkehrende Geschäftstransaktionen dar (z. B. die Anpassung von Rückstellungen), die von den unternehmensinternen Kontrollen für Buchungen überprüft werden sollten.
+
+Der Rest der manuellen Einträge, die zur Aufzeichnung ungewöhnlicher Ereignisse oder Anpassungen von Reserven verwendet werden, werden nicht-standardmäßige Einträge (oder manuelle/nachträglich Anpassungen) genannt und können die internen Kontrollen des Unternehmens umgehen. Ein Beispiel ist, dass das Unternehmen in letzter Minute Anpassungen an seinem Hauptbuch ohne legitimen Geschäftszweck vornimmt, um Finanzdaten dahingehend zu manipulieren, dass sie die gewünschten Beträge von Einnahmen, Vermögenswerten oder Verbindlichkeiten ausweisen.
+
+In einigen Fällen erstellt das Management „Top-Side“-Einträge, in denen es die Kontostände mithilfe einer Tabelle anpasst, nachdem die Rohbilanz geschlossen wurde. Diese Form der Anpassung außerhalb des Ergebnisses des Buchführungssystems führt zu den vom Management gewünschten Auswirkungen auf den Abschluss, ohne irgendwelche Einträge im System zu hinterlassen. Womit sämtliche interne Kontrollen umgangen werden.
+
+Übersicht über die Buchungsdaten:
+
+-   **Erstellungsdatum**: Das Erstellungsdatum spiegelt das Datum wider, an dem ein Benutzer (normalerweise ein Buchhalter) damit beginnt, einen Journaleintrag im Buchhaltungssystem zu erzeugen. Mitarbeiter können im Laufe des Tages Journaleinträge erstellen, wenn buchungsrelevante Sachverhalte auftreten oder Informationen verfügbar werden. Einige Buchhaltungssysteme erfassen das Erstellungsdatum für jeden einzelnen Posten im Journal und nicht für den Journaleintrag insgesamt. Als Ergebnis können die Bestandteile einer einzigen Buchung als an verschiedenen Tagen und/oder zu unterschiedlichen Zeiten erstellt, angezeigt werden.
+-   **Genehmigungsdatum**: Als interne Kontrolle über Journalbuchungen benötigen Unternehmen häufig einen Mitarbeiter, der den Geschäftsvorfall im System erfasst, während ein zweiter, in der Regel erfahrener Mitarbeiter, die Buchung zusammen mit vorhandenen Unterlagen prüft und seine Zustimmung erteilt. Das genehmigte Datum spiegelt das Datum wider, an dem diese Kontrolle abgeschlossen wurde. Im vorliegenden Fall deutet kein eingetragenes Datum darauf hin, dass das Unternehmen diese spezielle interne Kontrolle entweder nicht implementiert hat oder die Möglichkeit des Systems nicht nutzt.
+-   **Batched Date**: Historisch gesehen wurden komplexe Rechnungslegungssysteme mit unabhängigen Nebenbüchern und einem Hauptbuch entwickelt. Die Geschäftsvorfälle werden während des Tages in den speziellen Journalen der Nebenbuchhaltung (z. B. in den Kasseneinnahmen und den Barauszahlungen) erfasst, ohne Auswirkungen auf den Jahresabschluss des Unternehmens, bis sie vollständig abgeschlossen werden. Dies gab den Mitarbeitern die Möglichkeit, eine abschließende Durchsicht der Buchungen vorzunehmen, indem sie die zu buchenden Einträge auswählten und für die endgültige Buchung im Hauptbuch vorbereiteten. Diese Stapelverarbeitung umfasst häufig bestimmte automatisierte Überprüfungen der Daten, die vom Rechnungslegungssystem durchgeführt werden (z. B. Überprüfung der eingegebenen Kontonummern), bevor die Einträge gebucht und „endgültig“ werden. Somit dient die Stapelverarbeitung sowohl zur Kontrolle und auch als eine praktische Lösung, da: 1) die Verarbeitung großer Transaktionsvolumina während der normalen Geschäftszeiten das System auslasten und den Zugriff anderer Benutzer beschränken kann, bis die Verarbeitung abgeschlossen ist, und 2) vielen veralteten Systemen es an Möglichkeiten fehlt, Transaktionen zu bearbeiten, nachdem sie endgültig gebucht wurden. Als Ergebnis kann die Stapel-Verarbeitung dabei helfen, neue Einträge zu vermeiden, deren einziger Zweck es ist, Geschäftsvorfälle, die irrtümlich gebucht wurden, umzukehren oder anzupassen. Häufig haben Unternehmen Zeiten festgelegt, an denen sie Buchungen stapelweise verarbeiten. Damit soll eine fehlerfreie Verarbeitung sichergestellt werden. Dieser Prozess kann entweder automatisiert erfolgen oder ein Mitarbeiter muss diesen Prozess auslösen. Viele aktuellen Rechnungslegungssysteme wurden auf Echtzeitverarbeitung umgestellt, damit Buchungsinformationen in Echtzeit abgefragt werden können. Diese Systeme verwenden ein „Änderungsdatum“, um die Änderungen der Einträge nachverfolgen zu können.
+-   **Veröffentlichungsdatum**: Das Veröffentlichungsdatum ist der Zeitpunkt, an dem Geschäftsvorfälle als vollständig verarbeitet, überprüft und genehmigt gelten und an das Hauptbuch freigegeben wurden. Wie bereits erwähnt, erlauben viele älteren Systeme den Benutzern nicht, eine Transaktion nach der Veröffentlichung zu bearbeiten.
+-   **Wirksamkeitsdatum**: Das Wirksamkeitsdatum spiegelt das Datum wider, an dem sich der Geschäftsvorfall auf die Geschäftszahlen auswirkt. Wenn beispielsweise ein Mitarbeiter am 22. Januar eine Rechnung über die erhaltenen Waren am 22. Dezember erhält, sollte das Wirksamkeitsdatum der 22. Dezember sein, während das Erstellungsdatum, das Batched Date und das Veröffentlichungsdatum im Januar liegen, wenn der Buchhalter die Rechnung erhalten und im System erfasst hat.
+-   **HbEID**: Jeder durchgeführten Buchung wird eine eindeutige ID zugeordnet. Wird beispielsweise BGA 100 (Soll) an Bank 100 (Haben) gebucht, erhalten diese beiden Teile der Buchung dieselbe ID. Soll die „Soll-an-Haben“-Logik überprüft werden, so sind ganze Buchungen zu ermitteln. Somit ist nach dieser Spalte aufzusummieren.
+
+## Merkblatt
+
+Das Hauptbuch ist eines der Bücher, aus denen die Buchführung besteht. In das Hauptbuch werden Geschäftsvorfälle aus dem Grundbuch so überführt, dass sich eine sachliche Ordnung aller Buchungen auf Sachkonten ergibt.
+
+Das **Hauptbuch** ist ein Bestandteil der **doppelten Buchführung**, in das alle Geschäftsvorfälle **systematisch und dem sachlichen Grunde nach** eingetragen werden. Die Grundlage hierfür bildet das Journal, in dem alle Geschäftsvorfälle chronologisch geordnet sind. Das Hauptbuch muss das Prinzip der Geschlossenheit befolgen, damit es als Grundlage der Bilanz dienen kann.
+
+### Vom Grundbuch zum Hauptbuch
+
+Das Hauptbuch besteht aus sogenannten Sachkonten, die Geschäftsvorfälle dem Grunde nach ordnen. Die Grundlage hierfür bildet das sogenannte Journal, in das alle Vorfälle in ihrer zeitlichen Reihenfolge eingetragen werden. Die Übertragung kann auf drei unterschiedlichen Wegen erfolgen:
+
+-   Bei der Übertragungsbuchführung werden Buchungen zunächst ins Grundbuch und danach manuell ins Hauptbuch eingetragen.
+-   Die Durchschreibebuchführung setzt auf einen einzelnen Arbeitsschritt. Mittels Durchschreibepapier werden die Eintragungen dabei direkt ins Journal und ins Hauptbuch vorgenommen.
+-   Bei Nutzung moderner Buchführungsprogramme - wie sie bei allen Unternehmen zum Einsatz kommen - wird nur noch das Grundbuch geführt. Die Konten des Hauptbuchs werden automatisch vom System und auf Basis der Buchungen im Journal erstellt.
+
+### Führung und Abschluss des Hauptbuchs
+
+Der Aufbau des Hauptbuchs erfolgt in der Regel nach Vorlagen des Industriekontenrahmens, des Standardkontenrahmens oder des Gemeinschaftskontenrahmens. Durch den Abschluss aller Sachkonten und des Hauptbuchs im Ganzen ergibt sich automatisch die **Bilanz**. Auch die **Gewinn- und Verlustrechnung** wird direkt mit dem Abschluss des Hauptbuchs erstellt.
+
+Im Hauptbuch ist das Prinzip der Geschlossenheit zu berücksichtigen. Das bedeutet formell, dass ein Soll-Haben-Ausgleich stattfindet. Die Summe der Sollposten muss exakt der Summe aller Habenposten entsprechen. Aber auch materiell muss Geschlossenheit vorliegen, was bedeutet, dass das Hauptbuch tatsächlich alle Geschäftsvorfälle einer Periode erfasst.
+
+### Hauptbuch – Definition & Erklärung – Zusammenfassung
+
+-   Das Hauptbuch ordnet alle Geschäftsvorfälle dem Grunde nach
+-   Das Journal bildet die Grundlage für die Erstellung des Hauptbuchs
+-   Durch den Abschluss des Hauptbuchs entstehen automatisch die Bilanz sowie die Gewinn- und Verlustrechnung
+
+*Hinweis:* Für die Überprüfung der Vollständigkeit ist zu prüfen, ob die manuellen und automatischen Buchungen betragsmäßig mit der Rohbilanz übereinstimmen. Um einen Abgleich vornehmen zu können, benötigt man eine Information, die sowohl bei den Buchungen als auch in der Rohbilanz vorhanden ist. Dies ist z. B. die Konto- bzw. Unterkontonummer oder eine Kombination daraus. Im Nebenbuch können mehrere Buchungen auf das gleiche Konto durchgeführt worden sein. Diese sind vor dem Abgleich zusammenzufassen.
